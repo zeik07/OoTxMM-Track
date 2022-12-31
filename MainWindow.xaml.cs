@@ -22,26 +22,30 @@ namespace OoTxMM_Track
         {
             Tabs = new ObservableCollection<TabItem>();
             
-            XmlDocument gameData = new XmlDocument();
+            XmlDocument gameData = new();
             gameData.Load($@"{Directory.GetCurrentDirectory()}\GameData.xml");
-            foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
+
+            if (gameData.DocumentElement != null)
             {
-                ObservableCollection<Region> regionsList = new();
-                foreach (XmlNode region in tab.ChildNodes)
+                foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
                 {
-                    ObservableCollection<Checks> checksList = new();
-                    foreach (XmlNode check in region.ChildNodes)
+                    ObservableCollection<Region> regionsList = new();
+                    foreach (XmlNode region in tab.ChildNodes)
                     {
-                        if(check.Name == "skull" && ShowSkulls is false)
+                        ObservableCollection<Checks> checksList = new();
+                        foreach (XmlNode check in region.ChildNodes)
                         {
-                            continue;
+                            if (check.Name == "skull" && ShowSkulls is false)
+                            {
+                                continue;
+                            }
+                            checksList.Add(new Checks { Name = check.InnerText });
                         }
-                        checksList.Add(new Checks { Name = check.InnerText});
+                        regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
                     }
-                    regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
+                    Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Region = regionsList });
                 }
-                Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Region = regionsList });
-            }
+            }            
         }
     }
     
@@ -61,9 +65,5 @@ namespace OoTxMM_Track
     {
         public string? Name { get; set; }
         public bool? IsChecked { get; set; } = false;
-    }
-    public class Menu
-    {
-        public object[] Menus = new object[1] { "Settings" };
     }
 }
