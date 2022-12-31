@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:OoTxMM_Track"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        
     </Application.Resources>
 </Application>

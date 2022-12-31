@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tab name="Ocarina of Time">
+		<region name="Kokiri Forest">
+			<item>Kokiri Sword Chest</item>
+			<item>Mido's Chest 1</item>
+			<item>Mido's Chest 2</item>
+			<item>Mido's Chest 3</item>
+			<item>Mido's Chest 4</item>
+			<item>Storms Grotto</item>
+			<skull>Kokiri Soil Skulltula</skull>
+			<skull>Know It All House Skulltula</skull>
+			<skull>House of Twins Roof Skulltula</skull>
+		</region>
+		<region name="Lost Woods">
+			<item>Skull Kid</item>
+			<item>Lost Man</item>
+			<item>Poacher's Saw</item>
+			<item>Saria's Ocarina</item>
+			<item>Deku Scrub Near Bridge</item>
+			<item>Ocarina Memory Game</item>
+			<item>Target in the Woods</item>
+			<item>Deku Scrub (Left) Grotto Near SFM</item>
+			<item>Near Goron City Grotto</item>
+			<item>Deku Theater Skull Mask</item>
+			<item>Deku Theater Mask of Truth</item>
+			<skull>Near Bridge Soil Skulltula</skull>
+			<skull>Near Deku Theater Soil Skulltula</skull>
+			<skull>Above Deku Theater Skulltula</skull>
+		</region>
+		<region name="Sacred Forest Meadow">
+			<item>Wolfos Grotto</item>
+			<item>Saria's Song</item>
+			<item>Minuet of Forest</item>
+			<skull>SFM Night Skull</skull>
+		</region>
+		<region name="Hyrule Field">
+			<item>Ocarina of Time</item>
+			<item>Song of Time</item>
+			<item>Near Market Grotto</item>
+			<item>Near Forest Grotto</item>
+			<item>Open Grotto</item>
+			<item>Deku Scrub Inside Fence Grotto</item>
+			<item>Tektite Diving Grotto</item>
+			<skull>Near Kakariko Grotto Skulltula</skull>
+			<skull>Near Gerudo Valley Grotto Skulltula</skull>
+		</region>
+		<region name="Lon Lon Ranch">
+			<item>Epona's Song</item>
+			<item>Talon's Chickens</item>
+			<item>Tower Heart Piece</item>
+			<skull>Ranch Tree Skulltula</skull>
+			<skull>Ranch House Skulltula</skull>
+			<skull>Rain Shed Skulltula</skull>
+			<skull>Near Tower Skulltula</skull>
+		</region>
+		<region name="Market">
+			<item>Dog Lady</item>
+			<item>Big Poe</item>
+			<item>Treasure Chest Shop</item>
+			<item>Bombchu Bowling 1</item>
+			<item>Bombchu Bowling 2</item>
+			<item>Child Shooting Gallery</item>
+			<skull>Guard Shack Skulltula</skull>
+		</region>
+		<region name="Temple of Time">
+			<item>Prelude of Light</item>
+			<item>Light Arrows</item>
+			<item>Master Sword</item>
+			<item>Temple of Time Medallion</item>
+		</region>
+		<region name="Hyrule Castle">
+			<item>Malon's Egg</item>
+			<item>Zelda's Lullaby</item>
+			<item>Zelda's Letter</item>
+			<item>Hyrule Castle Great Fairy</item>
+			<skull>Castle Tree Skulltula</skull>
+			<skull>Castle Storms Grotto Skulltula</skull>
+		</region>
+		<region name="Outside Ganon's Castle">
+			<item>Outside Ganon's Great Fairy</item>
+			<skull>Outside Ganon's Skulltula</skull>
+		</region>
+		<region name="Kakariko Village">
+			<item>Anju's Chickens</item>
+			<item>Anju as Adult</item>
+			<item>Wake Talon</item>
+			<item>Nocturne of Shadow</item>
+			<item>Kakariko Open Grotto</item>
+			<item>Odd Potion</item>
+			<item>Song of Storms</item>
+			<item>Windmill Heart Piece</item>
+			<item>Redead Grotto</item>
+			<item>Man on Roof</item>
+			<item>Impa Cow Heart Piece</item>
+			<item>Adult Shooting Gallery</item>
+			<item> 10 Skulltula Reward</item>
+			<item> 20 Skulltula Reward</item>
+			<item> 30 Skulltula Reward</item>
+			<item> 40 Skulltula Reward</item>
+			<item> 50 Skulltula Reward</item>
+			<skull>Karariko Tree Skulltula</skull>
+			<skull>Karariko Guard Skulltula</skull>
+			<skull>Karariko Tower Skulltula</skull>
+			<skull>Karariko Construction Skulltula</skull>
+			<skull>Karariko Skulltula House Skulltula</skull>
+			<skull>Karariko Impa's Roof Skulltula</skull>
+		</region>
+		<region name="Kakariko Graveyard">
+			<item>Dampe Digging</item>
+			<item>Graveyard Crate Heart Piece</item>
+			<item>Dampe Race 1</item>
+			<item>Dampe Race 2</item>
+			<item>Shield Grave Chest</item>
+			<item>Redead Grave Sun's Song Chest</item>
+			<item>Sun's Song</item>
+			<item>Royal Tomb Torch Chest</item>
+			<skull>Graveyard Soil Skulltula</skull>
+			<skull>Graveyard Wall Skulltula</skull>
+		</region>
+	</tab>
+	<tab name="Majora's Mask">
+
+	</tab>
+	<tab name="Settings">
+		
+	</tab>
+</root>

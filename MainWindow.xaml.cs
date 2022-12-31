@@ -1,28 +1,69 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Xml;
 
 namespace OoTxMM_Track
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
-    {
+    {       
         public MainWindow()
         {
             InitializeComponent();
+            AddElement();
+            DataContext = this;            
         }
+        public ObservableCollection<TabItem>? Tabs { get; set; }
+        public bool ShowSkulls { get; set; } = true;
+        public void AddElement()
+        {
+            Tabs = new ObservableCollection<TabItem>();
+            
+            XmlDocument gameData = new XmlDocument();
+            gameData.Load($@"{Directory.GetCurrentDirectory()}\GameData.xml");
+            foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
+            {
+                ObservableCollection<Region> regionsList = new();
+                foreach (XmlNode region in tab.ChildNodes)
+                {
+                    ObservableCollection<Checks> checksList = new();
+                    foreach (XmlNode check in region.ChildNodes)
+                    {
+                        if(check.Name == "skull" && ShowSkulls is false)
+                        {
+                            continue;
+                        }
+                        checksList.Add(new Checks { Name = check.InnerText});
+                    }
+                    regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
+                }
+                Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Region = regionsList });
+            }
+        }
+    }
+    
+    public sealed class TabItem
+    {
+        public string? Header { get; set; }
+        public string? Content { get; set; }
+        public ObservableCollection<Region>? Region { get; set; }
+    }
+
+    public class Region
+    {
+        public string? Header { get; set; }
+        public ObservableCollection<Checks>? Check { get; set; }
+    }
+    public class Checks
+    {
+        public string? Name { get; set; }
+        public bool? IsChecked { get; set; } = false;
+    }
+    public class Menu
+    {
+        public object[] Menus = new object[1] { "Settings" };
     }
 }
