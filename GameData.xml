@@ -118,11 +118,45 @@
 			<skull>Graveyard Soil Skulltula</skull>
 			<skull>Graveyard Wall Skulltula</skull>
 		</region>
+		<region name="Death Mountain Trail">
+			<item>Above Dodongo's Cavern Heart Piece</item>
+			<item>Outside Goron City Chest</item>
+			<item>Persription</item>
+			<item>Claim Check</item>
+			<item>Biggoron Sword</item>
+			<item>Trail Great Fairy</item>
+			<item>Trail Storms Grotto</item>
+			<skull>Trail Bombable Wall Skulltula</skull>
+			<skull>Trail Soil Skulltula</skull>
+			<skull>Trail Above Dodongo's Skulltula</skull>
+			<skull>Trail Path to Crater Skulltula</skull>
+		</region>
+		<region name="Goron City">
+			<item>Boulder Maze Left Chest</item>
+			<item>Boulder Maze Center Chest</item>
+			<item>Boulder Maze Right Chest</item>
+			<item>Rolling Goron</item>
+			<item>Link The Goron</item>
+			<item>Medigoron</item>
+			<item>Darunia's Joy</item>
+			<item>Spinning Pot</item>
+			<skull>Goron City Boulder Maze Skulltula</skull>
+			<skull>Goron City Center Platform Skulltula</skull>
+		</region>
+		<region name="Death Mountain Crater">
+			<item>Bolero of Fire</item>
+			<item>Crater Wall Heart Piece</item>
+			<item>Magic Bean Heart Piece</item>
+			<item>Upper Grotto Chest</item>
+			<item>Crater Great Fairy</item>
+			<skull>Crater Soil Skulltula</skull>
+			<skull>Crater Crate Skulltula</skull>
+		</region>
 	</tab>
 	<tab name="Majora's Mask">
 
 	</tab>
 	<tab name="Settings">
-		
+
 	</tab>
 </root>

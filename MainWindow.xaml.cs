@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.IO;
-using System.Linq;
 using System.Windows;
-using System.Windows.Controls;
 using System.Xml;
 
 namespace OoTxMM_Track
@@ -14,10 +11,11 @@ namespace OoTxMM_Track
         {
             InitializeComponent();
             AddElement();
-            DataContext = this;            
+            DataContext = this;
         }
         public ObservableCollection<TabItem>? Tabs { get; set; }
         public bool ShowSkulls { get; set; } = true;
+        public int totalChecks { get; set; } = 0;
         public void AddElement()
         {
             Tabs = new ObservableCollection<TabItem>();
@@ -40,10 +38,11 @@ namespace OoTxMM_Track
                                 continue;
                             }
                             checksList.Add(new Checks { Name = check.InnerText });
+                            totalChecks += 1;
                         }
                         regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
                     }
-                    Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Region = regionsList });
+                    Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Content = $"Total Checks: {totalChecks}", Region = regionsList });
                 }
             }            
         }
