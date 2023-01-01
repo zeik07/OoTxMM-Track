@@ -1,57 +1,118 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
+using System.Threading;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Threading;
 using System.Xml;
+using System.Xml.Serialization;
 
 namespace OoTxMM_Track
 {
     public partial class MainWindow : Window
     {       
         public MainWindow()
-        {
-            InitializeComponent();
+        {            
             AddElement();
             DataContext = this;
+            InitializeComponent();
         }
         public ObservableCollection<TabItem>? Tabs { get; set; }
         public bool ShowSkulls { get; set; } = true;
-        public int totalChecks { get; set; } = 0;
+        public int TotalChecks { get; set; } = 0;
         public void AddElement()
         {
-            Tabs = new ObservableCollection<TabItem>();
-            
-            XmlDocument gameData = new();
-            gameData.Load($@"{Directory.GetCurrentDirectory()}\GameData.xml");
-
-            if (gameData.DocumentElement != null)
+            if (!File.Exists("SaveData.xml"))
             {
-                foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
+                Tabs = new ObservableCollection<TabItem>();
+                XmlDocument gameData = new();
+                gameData.Load($@"{Directory.GetCurrentDirectory()}\GameData.xml");
+
+                if (gameData.DocumentElement != null)
                 {
-                    ObservableCollection<Region> regionsList = new();
-                    foreach (XmlNode region in tab.ChildNodes)
+                    foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
                     {
-                        ObservableCollection<Checks> checksList = new();
-                        foreach (XmlNode check in region.ChildNodes)
+                        ObservableCollection<Region> regionsList = new();
+                        foreach (XmlNode region in tab.ChildNodes)
                         {
-                            if (check.Name == "skull" && ShowSkulls is false)
+                            ObservableCollection<Checks> checksList = new();
+                            foreach (XmlNode check in region.ChildNodes)
                             {
-                                continue;
+                                if (check.Name == "skull" && ShowSkulls is false)
+                                {
+                                    continue;
+                                }
+                                checksList.Add(new Checks { Name = check.InnerText });
+                                TotalChecks += 1;
                             }
-                            checksList.Add(new Checks { Name = check.InnerText });
-                            totalChecks += 1;
+                            regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
                         }
-                        regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
+                        Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Content = $"Total Checks: {TotalChecks}", Index = "0", Region = regionsList });
                     }
-                    Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Content = $"Total Checks: {totalChecks}", Region = regionsList });
                 }
-            }            
+            }
+            else
+            {
+                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<TabItem>));
+                Stream reader = new FileStream("SaveData.xml", FileMode.Open);
+                if (reader != null && xs != null)
+                {
+                    Tabs = (ObservableCollection<TabItem>?)xs.Deserialize(reader);
+                }                
+            }
+        }
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<TabItem>));
+            using (StreamWriter wr = new StreamWriter("SaveData.xml"))
+            {
+                xs.Serialize(wr, Tabs);
+            }
+        }
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            if (Tabs != null)
+            {
+                foreach (TabItem tab in Tabs)
+                {
+                    if (tab.Region != null)
+                    {
+                        foreach (Region reg in tab.Region)
+                        {
+                            if (reg.Check != null)
+                            {
+                                foreach (Checks check in reg.Check)
+                                {
+                                    check.IsChecked = false;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if (File.Exists("SaveData.xml"))
+            {
+                File.Delete("SaveData.xml");
+            }
+            var left = Application.Current.MainWindow.Left;
+            var top = Application.Current.MainWindow.Top;
+            MainWindow newWin = new MainWindow
+            {
+                Left = left,
+                Top = top
+            };
+            this.Close();
+            newWin.Show();            
         }
     }
-    
     public sealed class TabItem
     {
         public string? Header { get; set; }
         public string? Content { get; set; }
+        public string? Index { get; set; } = "0";
         public ObservableCollection<Region>? Region { get; set; }
     }
 
@@ -65,4 +126,5 @@ namespace OoTxMM_Track
         public string? Name { get; set; }
         public bool? IsChecked { get; set; } = false;
     }
+
 }
