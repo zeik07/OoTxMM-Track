@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
+﻿using System.Collections.ObjectModel;
 using System.IO;
-using System.Threading;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Threading;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -46,12 +40,19 @@ namespace OoTxMM_Track
                                     continue;
                                 }
                                 checksList.Add(new Checks { Name = check.InnerText });
-                                TotalChecks += 1;
+                                if (tab.Attributes?["name"]?.InnerText != "Settings")
+                                {
+                                    TotalChecks += 1;
+                                }
                             }
                             regionsList.Add(new Region { Header = region.Attributes?["name"]?.InnerText, Check = checksList });
                         }
-                        Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Content = $"Total Checks: {TotalChecks}", Index = "0", Region = regionsList });
+                        Tabs.Add(new TabItem { Header = tab.Attributes?["name"]?.InnerText, Index = "0", Region = regionsList });
                     }
+                }
+                foreach (TabItem t in Tabs)
+                {
+                    t.Content = $"Total Checks: {TotalChecks}";
                 }
             }
             else
