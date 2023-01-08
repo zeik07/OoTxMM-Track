@@ -10,11 +10,18 @@
 
   <ItemGroup>
     <None Remove="GameData.xml" />
+    <None Remove="ImportData.xml" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="GameData.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ImportData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 

@@ -1,527 +1,3987 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-	<tab name="Ocarina of Time">
-		<region name="Kokiri Forest">
-			<item>Kokiri Sword Chest</item>
-			<item>Mido's Chest 1</item>
-			<item>Mido's Chest 2</item>
-			<item>Mido's Chest 3</item>
-			<item>Mido's Chest 4</item>
-			<item>Storms Grotto</item>
-			<skull>Kokiri Soil Skulltula</skull>
-			<skull>Know It All House Skulltula</skull>
-			<skull>House of Twins Roof Skulltula</skull>
-		</region>
-		<region name="Lost Woods">
-			<item>Skull Kid</item>
-			<item>Lost Man</item>
-			<item>Poacher's Saw</item>
-			<item>Saria's Ocarina</item>
-			<item>Near Bridge Deku Scrub</item>
-			<item>Ocarina Memory Game</item>
-			<item>Target in the Woods</item>
-			<item>Grotto Near Meadow Deku Scrub (Left)</item>
-			<item>Near Goron City Grotto</item>
-			<item>Deku Theater Skull Mask</item>
-			<item>Deku Theater Mask of Truth</item>
-			<skull>Near Bridge Soil Skulltula</skull>
-			<skull>Near Deku Theater Soil Skulltula</skull>
-			<skull>Above Deku Theater Skulltula</skull>
-		</region>
-		<region name="Sacred Forest Meadow">
-			<item>Wolfos Grotto</item>
-			<item>Saria's Song</item>
-			<item>Minuet of Forest</item>
-			<skull>SFM Night Skulltula</skull>
-		</region>
-		<region name="Hyrule Field">
-			<item>Ocarina of Time</item>
-			<item>Song of Time</item>
-			<item>Near Market Grotto Chest</item>
-			<item>Near Forest Grotto Chest</item>
-			<item>Open Grotto Chest</item>
-			<item>Inside Fence Grotto Deku Scrub</item>
-			<item>Tektite Diving Grotto</item>
-			<skull>Near Kakariko Grotto Skulltula</skull>
-			<skull>Near Gerudo Valley Grotto Skulltula</skull>
-		</region>
-		<region name="Lon Lon Ranch">
-			<item>Epona's Song</item>
-			<item>Talon's Chickens</item>
-			<item>Tower Heart Piece</item>
-			<skull>Ranch Tree Skulltula</skull>
-			<skull>Ranch House Skulltula</skull>
-			<skull>Rain Shed Skulltula</skull>
-			<skull>Near Tower Skulltula</skull>
-		</region>
-		<region name="Market">
-			<item>Dog Lady</item>
-			<item>Big Poe</item>
-			<item>Treasure Chest Shop</item>
-			<item>Bombchu Bowling 1</item>
-			<item>Bombchu Bowling 2</item>
-			<item>Child Shooting Gallery</item>
-			<skull>Guard Shack Skulltula</skull>
-		</region>
-		<region name="Temple of Time">
-			<item>Prelude of Light</item>
-			<item>Light Arrows</item>
-			<item>Master Sword</item>
-			<item>Temple of Time Medallion</item>
-		</region>
-		<region name="Hyrule Castle">
-			<item>Malon's Egg</item>
-			<item>Zelda's Lullaby</item>
-			<item>Zelda's Letter</item>
-			<item>Hyrule Castle Great Fairy</item>
-			<skull>Castle Tree Skulltula</skull>
-			<skull>Castle Storms Grotto Skulltula</skull>
-		</region>
-		<region name="Outside Ganon's Castle">
-			<item>Outside Ganon's Great Fairy</item>
-			<skull>Outside Ganon's Skulltula</skull>
-		</region>
-		<region name="Kakariko Village">
-			<item>Anju's Chickens</item>
-			<item>Anju as Adult</item>
-			<item>Wake Talon</item>
-			<item>Nocturne of Shadow</item>
-			<item>Kakariko Open Grotto</item>
-			<item>Odd Potion</item>
-			<item>Song of Storms</item>
-			<item>Windmill Heart Piece</item>
-			<item>Redead Grotto</item>
-			<item>Man on Roof</item>
-			<item>Impa Cow Heart Piece</item>
-			<item>Adult Shooting Gallery</item>
-			<item> 10 Skulltula Reward</item>
-			<item> 20 Skulltula Reward</item>
-			<item> 30 Skulltula Reward</item>
-			<item> 40 Skulltula Reward</item>
-			<item> 50 Skulltula Reward</item>
-			<skull>Karariko Tree Skulltula</skull>
-			<skull>Karariko Guard Skulltula</skull>
-			<skull>Karariko Tower Skulltula</skull>
-			<skull>Karariko Construction Skulltula</skull>
-			<skull>Karariko Skulltula House Skulltula</skull>
-			<skull>Karariko Impa's Roof Skulltula</skull>
-		</region>
-		<region name="Kakariko Graveyard">
-			<item>Dampe Digging</item>
-			<item>Graveyard Crate Heart Piece</item>
-			<item>Dampe Race 1</item>
-			<item>Dampe Race 2</item>
-			<item>Shield Grave Chest</item>
-			<item>Redead Grave Sun's Song Chest</item>
-			<item>Sun's Song</item>
-			<item>Royal Tomb Torch Chest</item>
-			<skull>Graveyard Soil Skulltula</skull>
-			<skull>Graveyard Wall Skulltula</skull>
-		</region>
-		<region name="Death Mountain Trail">
-			<item>Above Dodongo's Cavern Heart Piece</item>
-			<item>Outside Goron City Chest</item>
-			<item>Persription</item>
-			<item>Claim Check</item>
-			<item>Biggoron Sword</item>
-			<item>Trail Great Fairy</item>
-			<item>Trail Storms Grotto</item>
-			<skull>Trail Bombable Wall Skulltula</skull>
-			<skull>Trail Soil Skulltula</skull>
-			<skull>Trail Above Dodongo's Skulltula</skull>
-			<skull>Trail Path to Crater Skulltula</skull>
-		</region>
-		<region name="Goron City">
-			<item>Boulder Maze Left Chest</item>
-			<item>Boulder Maze Center Chest</item>
-			<item>Boulder Maze Right Chest</item>
-			<item>Rolling Goron</item>
-			<item>Link The Goron</item>
-			<item>Medigoron</item>
-			<item>Darunia's Joy</item>
-			<item>Spinning Pot</item>
-			<skull>Goron City Boulder Maze Skulltula</skull>
-			<skull>Goron City Center Platform Skulltula</skull>
-		</region>
-		<region name="Death Mountain Crater">
-			<item>Bolero of Fire</item>
-			<item>Crater Wall Heart Piece</item>
-			<item>Magic Bean Heart Piece</item>
-			<item>Upper Grotto Chest</item>
-			<item>Crater Great Fairy</item>
-			<skull>Crater Soil Skulltula</skull>
-			<skull>Crater Crate Skulltula</skull>
-		</region>
-		<region name="Zora’s River">
-			<item>Frogs in the Rain</item>
-			<item>Frog Ocarina Game</item>
-			<item>Above Frogs Heart Piece</item>
-			<item>Near Waterfall Heart Piece</item>
-			<item>Bean Salesman</item>
-			<item>Open Grotto Chest</item>
-			<skull>Zora River Tree Skulltula</skull>
-			<skull>Zora River Ladder Skulltula</skull>
-			<skull>Zora River Near Grotto Skulltula</skull>
-			<skull>Zora River Near Bridge Skulltula</skull>
-		</region>
-		<region name="Zora’s Domain">
-			<item>Diving Game</item>
-			<item>Torch Run Chest</item>
-			<item>Thaw King Zora</item>
-			<item>Eyeball Frog</item>
-			<skull>Zora Domain Frozen Waterfall Skulltula</skull>
-		</region>
-		<region name="Zora Fountain">
-			<item>Iceberg Heart Piece</item>
-			<item>Underwater Heart Piece</item>
-			<item>Great Fairy</item>
-			<skull>Zora Fountain Wall Skulltula</skull>
-			<skull>Zora Fountain Tree Skulltula</skull>
-			<skull>Zora Fountain Hidden Cave Skulltula</skull>
-		</region>
-		<region name="Lake Hylia">
-			<item>Shoot the Sun</item>
-			<item>Underwater Bottle</item>
-			<item>Lab Roof</item>
-			<item>Child Fishing</item>
-			<item>Adult Fishing</item>
-			<item>Lab Diving</item>
-			<item>Eye Drops</item>
-			<skull>Lake Hylia Lab Wall Skulltula</skull>
-			<skull>Lake Hylia Small Island Skulltula</skull>
-			<skull>Lake Hylia Soil Skulltula</skull>
-			<skull>Lake Hylia Big Tree Skulltula</skull>
-			<skull>Laboratory Dive Crate Skulltula</skull>
-		</region>
-		<region name="Gerudo Valley">
-			<item>Canyon Crate Heart Piece</item>
-			<item>Canyon Waterfall Heart Piece</item>
-			<item>Hammer Rocks Chest</item>
-			<item>Broken Goron’s Sword</item>
-			<skull>Gerudo Valley Soil Skulltula</skull>
-			<skull>Gerudo Valley Small Waterfall Skulltula</skull>
-			<skull>Gerudo Valley Near Tent Skulltula</skull>
-			<skull>Gerudo Valley Pillar Skulltula</skull>
-		</region>
-		<region name="Gerudo Fortress">
-			<item>Roof Chest</item>
-			<item>Horseback Archery 1000</item>
-			<item>Horseback Archery 1500</item>
-			<item>Carpenter 1</item>
-			<item>Carpenter 2</item>
-			<item>Carpenter 3</item>
-			<item>Carpenter 4</item>
-			<item>Respect of the Gerudos</item>
-			<skull>Gerudo Fortress Wall Skulltula</skull>
-			<skull>Gerudo Fortress Archery Skulltula</skull>
-		</region>
-		<region name="Haunted Wasteland">
-			<item>Wasteland Chest</item>
-			<skull>Haunted Wasteland Skulltula</skull>
-		</region>
-		<region name="Desert Colossus">
-			<item>Bean Patch Heart Piece</item>
-			<item>Requiem of Spirit</item>
-			<item>Colossus Great Fairy</item>
-			<skull>Desert Colossus Soil Skulltula</skull>
-			<skull>Desert Colossus Tree Skulltula</skull>
-			<skull>Desert Colossus Plateau Skulltula</skull>
-		</region>
-	</tab>
-	<tab name="Majora's Mask">
-		<region name="North Clock Town">
-			<item>Tree Heart Piece</item>
-			<item>Blast Mask – Night 1, 12:20 AM</item>
-			<item>Great Fairy as Human</item>
-			<item>Great Fairy Non-Human</item>
-			<item>Bomber Notebook</item>
-			<item>Deku Playground One Day</item>
-			<item>Deku Playground All Days</item>
-		</region>
-		<region name="South Clock Town">
-			<item>Platform Heart Piece</item>
-			<item>Skull Kid Song of Time</item>
-			<item>Skull Kid Ocarina</item>
-			<item>Business Scrub</item>
-			<item>Chest on Ledge</item>
-			<item>Chest on Tower, Day 3</item>
-		</region>
-		<region name="West Clock Town">
-			<item>Swordsman School Heart Piece</item>
-			<item>Post Office Counting Game</item>
-			<item>Post Office Priority Delivery</item>
-			<item>Rosa Sisters Heart Piece</item>
-			<item>Bomb Shop Bomb Bag</item>
-			<item>Bomb Shop Bomb Bag 2</item>
-			<item>Bank Reward 200 Rupees</item>
-			<item>Bank Reward 1000 Rupees</item>
-			<item>Bank Reward 5000 Rupees</item>
-			<item>Curiosity Shop All-Night Mask</item>
-		</region>
-		<region name="East Clock Town">
-			<item>Mayor's Office Kafei's Mask</item>
-			<item>Mayor's Office Heart Piece</item>
-			<item>Astral Observatory Moon Tear</item>
-			<item>Astral Observatory Passage Chest</item>
-			<item>Milk Bar Troupe Leader Mask</item>
-			<item>Milk Bar Madame Aroma Bottle</item>
-			<item>Honey &amp; Darling Reward 1</item>
-			<item>Honey &amp; Darling Reward 2</item>
-			<item>Town Archery Reward 1</item>
-			<item>Town Archery Reward 2</item>
-			<item>Chest Game as Goron</item>
-			<item>Silver Rupee Chest</item>
-		</region>
-		<region name="Stock Pot Inn">
-			<item>Anju, Room Key – Day 1, 1:45 - 4:00</item>
-			<item>Knife Chamber</item>
-			<item>Grandma Story 1</item>
-			<item>Grandma Story 2</item>
-			<item>Toilet Hand</item>
-			<item>Midnight Meeting</item>
-			<item>Staff Room – Final Night</item>
-			<item>Couple’s Mask</item>
-		</region>
-		<region name="Laundry Pool">
-			<item>Guru Guru Mask Bremen</item>
-			<item>Curiosity Shop Back Room Pendant of Memories</item>
-			<item>Curiosity Shop Back Room Owner Reward 1</item>
-			<item>Curiosity Shop Back Room Owner Reward 2</item>
-		</region>
-		<region name="Termina Field">
-			<item>Gossip Stones Heart Piece</item>
-			<item>Dodongo Grotto</item>
-			<item>Kamaro Mask</item>
-			<item>Bio Baba Grotto – Beehive Heart Piece</item>
-			<item>Pillar Grotto</item>
-			<item>Underwater Chest</item>
-			<item>Business Scrub/Grotto</item>
-			<item>Peahat Grotto – Daytime only</item>
-			<item>Tall Grass Chest</item>
-			<item>Tall Grass Grotto</item>
-			<item>Tree Stump Chest</item>
-		</region>
-		<region name="Milk Road">
-			<item>Cucco Shack Bunny Mask</item>
-			<item>Doggy Racetrack Chest</item>
-			<item>Doggy Racetrack Heart Piece</item>
-			<item>Gorman Track Garo Mask</item>
-			<item>Romani Ranch Epona Song</item>
-			<item>Romani Ranch Aliens</item>
-			<item>Romani Ranch Cremia Escort</item>
-		</region>
-		<region name="Southern Swamp">
-			<item>Road Swamp Tree Heart Piece</item>
-			<item>Road to Swamp Grotto</item>
-			<item>Swamp Archery Reward 1</item>
-			<item>Swamp Archery Reward 2</item>
-			<item>Tourist Center Gift for Saving Koume</item>
-			<item>Tourist Center Archery</item>
-			<item>Tourist Center Tingle Picture</item>
-			<item>Swamp Scrub Deed</item>
-			<item>Southern Swamp Freestanding</item>
-			<item>Woods of Mystery Grotto – Day 2</item>
-			<item>Potion Shop – Talk to Kotake after seeing Koume hurt</item>
-			<item>Southern Swamp Grotto</item>
-			<item>Swamp Spider House Mask of Truth</item>
-			<item>Song of Soaring</item>
-			<item>Deku Palace Bean Grotto Chest</item>
-			<item>Deku Palace Heart Piece</item>
-			<item>Sonata of Awakening</item>
-			<item>Deku Shrine</item>
-			<item>Near Temple Tall Stump</item>
-			<item>Behind Temple Platform</item>
-			<item>Water Level Stump Near Temple</item>
-			<item>Woodfall Temple Great Fairy</item>
-		</region>
-		<region name="Swamp Spider House">
-			<skull>Main Room 1F Skulltula</skull>
-			<skull>Main Room 1F 2 Skulltula</skull>
-			<skull>Main Room 1F 3 Skulltula</skull>
-			<skull>Lower Dirt Patch 1 Skulltula</skull>
-			<skull>Lower Dirt Patch 2 Skulltula</skull>
-			<skull>Monument Room Crate 1 Skulltula</skull>
-			<skull>Monument Room Crate 2 Skulltula</skull>
-			<skull>Stone Room Wall Skulltula</skull>
-			<skull>Monument Room 2F 1 Skulltula</skull>
-			<skull>Monument Room 2F 2 Skulltula</skull>
-			<skull>Second Floor Pillar Skulltula</skull>
-			<skull>Second Floor on Wall Skulltula</skull>
-			<skull>Dirt Patch Second Floor Skulltula</skull>
-			<skull>Pot Room Beehive 1 Skulltula</skull>
-			<skull>Pot Room Beehive 2 Skulltula</skull>
-			<skull>Large and Small Pots 1 Skulltula</skull>
-			<skull>Large and Small Pots 2 Skulltula</skull>
-			<skull>Large and Small Pots 3 Skulltula</skull>
-			<skull>Behind Vines Skulltula</skull>
-			<skull>Pot Room Far Wall Skulltula</skull>
-			<skull>Gold Room Beehive Skulltula</skull>
-			<skull>Gold Room Pillar Skulltula</skull>
-			<skull>Gold Room Wall Skulltula</skull>
-			<skull>Gold Room on Ladder Skulltula</skull>
-			<skull>Tree Room in Tree 1 Skulltula</skull>
-			<skull>Tree Room in Tree 2 Skulltula</skull>
-			<skull>Tree Room in Tree 3 Skulltula</skull>
-			<skull>Tree Room Beehive Skulltula</skull>
-			<skull>Tree Room Grass 1 Skulltula</skull>
-			<skull>Tree Room Grass 2 Skulltula</skull>
-		</region>
-		<region name="Mountain">
-			<item>Heal Darmani</item>
-			<item>Twin Islands Frozen Grotto Chest</item>
-			<item>Twin Islands Ramp Grotto Chest</item>
-			<item>Goron Elder</item>
-			<item>Goron Baby</item>
-			<item>Goron Village Scrub Deed</item>
-			<item>Goron Village Scrub Bomb Bag</item>
-			<item>Goron Village Heart Piece</item>
-			<item>Medigoron – Open the Racetrack</item>
-			<item>Lone Peak Shrine Lens Chest</item>
-			<item>Lone Peak Shrine Invisible Chest</item>
-			<item>Lone Peak Shrine Boulder Chest</item>
-			<item>Goron Race Reward</item>
-			<item>Road to Temple Grotto</item>
-			<item>Road to Temple Island Heart Piece</item>
-			<item>Snowhead Great Fairy</item>
-			<item>Path to Snowhead Grotto – Spring</item>
-			<item>Twin Islands Underwater Chest 1 – Spring</item>
-			<item>Twin Islands Underwater Chest 2 – Spring</item>
-		</region>
-		<region name="Mountain Village">
-			<item>Blacksmith Razor Blade</item>
-			<item>Blacksmith Gilded Sword</item>
-			<item>Frog Choir – Spring</item>
-			<item>Hungry Goron</item>
-			<item>Waterfall Chest - Spring</item>
-		</region>
-		<region name="Ocean">
-			<item>Great Bay Coast Zora Mask</item>
-			<item>Great Bay Coast Fisherman Grotto</item>
-			<item>Ocean Spider House Chest Heart Piece</item>
-			<item>Ocean Spider House All Tokens</item>
-			<item>Fisherman Minigame – Clean Ocean</item>
-			<item>Great Bay Coast Ledge</item>
-			<item>Laboratory Zora Song</item>
-			<item>Laboratory Fish eart PieceP</item>
-			<item>Zora Hall Evan    &#x2B9E;&#x2B9E;&#x2B9F;A    A&#x2B9F;&#x2B9E;A    &#x2B9C;&#x2B9C;&#x2B9E;&#x2B9F;    &#x2B9F;&#x2B9E;&#x2B9C;&#x2B9F;</item>
-			<item>Zora Hall Scrub Heart Piece</item>
-			<item>Zora Hall Scrub Deed</item>
-			<item>Zora Hall Scene Lights</item>
-			<item>Great Bay Fairy</item>
-			<item>Zora Cape Grotto</item>
-			<item>Zora Cape Underwater Chest</item>
-			<item>Zora Cape Ledge Chest 1</item>
-			<item>Zora Cape Ledge Chest 2</item>
-			<item>Zora Cape Waterfall HP</item>
-			<item>Waterfall Rapids Beaver Race 1</item>
-			<item>Waterfall Rapids Beaver Race 2</item>
-			<item>Pinnacle Rock Chest Upper</item>
-			<item>Pinnacle Rock Chest Lower</item>
-			<item>Pinnacle Rock Heart Piece</item>
-		</region>
-		<region name="Ocean Spider House">
-			<skull>Slope Left Skulltula</skull>
-			<skull>Slope Right Skulltula</skull>
-			<skull>Behind Web Skulltula</skull>
-			<skull>Behind Skull on Wall Skulltula</skull>
-			<skull>Web Covered Pot 1F Skulltula</skull>
-			<skull>Uncovered Pot Main Room Skulltula</skull>
-			<skull>Main Room Wood Beam Skulltula</skull>
-			<skull>On Bookshelf Skulltula</skull>
-			<skull>Behind Cabinets Skulltula</skull>
-			<skull>Library Black Space Skulltula</skull>
-			<skull>Hole Behind Painting Skulltula</skull>
-			<skull>Library Behind Painting Skulltula</skull>
-			<skull>Behind Bookshelf Left Skulltula</skull>
-			<skull>Behind Bookshelf Right Skulltula</skull>
-			<skull>Basement Black Space Skulltula</skull>
-			<skull>Vase in Basement Skulltula</skull>
-			<skull>Behind Skull in Basement Skulltula</skull>
-			<skull>Basement Hole Skulltula</skull>
-			<skull>Basement Pot on Crates Skulltula</skull>
-			<skull>Storage Room Crate Skulltula</skull>
-			<skull>Storage Room Alcove Skulltula</skull>
-			<skull>Behind Boat Skulltula</skull>
-			<skull>Storage Room Rafters Skulltula</skull>
-			<skull>Storage Room Behind Web Skulltula</skull>
-			<skull>Mask Room Chandelier 1 Skulltula</skull>
-			<skull>Mask Room Chandelier 2 Skulltula</skull>
-			<skull>Mask Room Chandelier 3 Skulltula</skull>
-			<skull>Mask Room Painting Skulltula</skull>
-			<skull>Mask Room Black Space Skulltula</skull>
-			<skull>Mask Room Pot Skulltula</skull>
-		</region>
-		<region name="Pirate Fortress">
-			<item>Exterior Near Gate</item>
-			<item>Exterior In Corner</item>
-			<item>Exterior Under Log</item>
-			<item>Tunnel Maze Chest</item>
-			<item>Tunnel Jail Room Underwater 1</item>
-			<item>Tunnel Jail Room Underwater 2</item>
-			<item>Tunnel Jail Room Heart Piece</item>
-			<item>Interior Lower Chest</item>
-			<item>Interior Upper Chest</item>
-			<item>Hookshot Chest</item>
-			<item>Well Guarded Chest</item>
-			<item>Fish Tank Chest</item>
-		</region>
-		<region name="Ikana Canyon">
-			<item>Road to Ikana Chest</item>
-			<item>Road to Ikana Stone Mask</item>
-			<item>Road to Ikana Grotto</item>
-			<item>Ikana Valley Scrub Trade</item>
-			<item>Ikana Valley Scrub Heart Piece</item>
-			<item>Ikana Valley Grotto</item>
-			<item>Secret Shrine 4 Hearts</item>
-			<item>Secret Shrine 8 Hearts</item>
-			<item>Secret Shrine 12 Hearts</item>
-			<item>Secret Shrine 16 Hearts</item>
-			<item>Secret Shrine All Bosses</item>
-			<item>Music Box House Gibdo Mask</item>
-			<item>Ikana Great Fairy</item>
-			<item>Ghost Hut Minigame</item>
-			<item>Beneath the Well Mirror Shield</item>
-			<item>Beneath the Well Skulltulla Chest</item>
-			<item>Beneath the Well Keese Chest</item>
-			<item>Ancient Castle of Ikana Heart Piece</item>
-			<item>Ancient Castle of Ikana Song Emptiness</item>
-			<item>Stone Tower Inverted Chest 1</item>
-			<item>Stone Tower Inverted Chest 2</item>
-			<item>Stone Tower Inverted Chest 3</item>
-		</region>
-		<region name="Ikana Graveyard">
-			<item>Under Graveyard Night 1 – Kill Keese</item>
-			<item>Under Graveyard Night 1 – Song of Storms</item>
-			<item>Under Graveyard Night 2 – Iron Knuckle</item>
-			<item>Under Graveyard Night 3 – Dampe</item>
-			<item>Ikana Graveyard Grotto</item>
-			<item>Ikana Graveyard Captain Mask</item>
-		</region>
-		<region name="Moon">
-			<item>Moon Trial Deku Heart Piece</item>
-			<item>Moon Trial Goron Heart Piece</item>
-			<item>Moon Trial Zora Heart Piece</item>
-			<item>Moon Trial Link Heart Piece</item>
-			<item>Moon Trial Link Chest 2</item>
-			<item>Moon Trial Link Chest 1</item>
-			<item>Moon Fierce Deity Mask</item>
-		</region>
-		<region name="Misc/Multiple">
-			<item>Oath to Order</item>
-			<item>Clock Town Mailboxes</item>
-			<item>Clock Town Stray Fairy</item>
-			<item>Keaton</item>
-			<item>Tingle Clock Town Map</item>
-			<item>Tingle Swamp Map</item>
-			<item>Tingle Mountain Map</item>
-			<item>Tingle Ranch Map</item>
-			<item>Tingle Ocean Map</item>
-			<item>Tingle Canyon Map</item>
-		</region>
-	</tab>
-	<tab name="Settings">
-		<region name="Tracker">
-			<setting>Skulls</setting>
-		</region>
-	</tab>
-</root>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Tab>
+		<TabName>Ocarina of Time</TabName>
+		<Content>Total Checks: 722</Content>
+		<Index>0</Index>
+		<Regions>
+			<Region>
+				<RegionName>Kokiri Forest</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Kokiri Sword Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mido's Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mido's Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mido's Chest 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mido's Chest 4</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Storms Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Kokiri Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Know It All House Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>House of Twins Roof Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Lost Woods</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Skull Kid</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lost Man</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Poacher's Saw</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Saria's Ocarina</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Bridge Deku Scrub</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ocarina Memory Game</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Target in the Woods</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Grotto Near Meadow Deku Scrub (Left)</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Goron City Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Theater Skull Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Theater Mask of Truth</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Bridge Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Deku Theater Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Above Deku Theater Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Sacred Forest Meadow</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Wolfos Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Saria's Song</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Minuet of Forest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>SFM Night Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Hyrule Field</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Ocarina of Time</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Song of Time</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Market Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Forest Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Open Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inside Fence Grotto Deku Scrub</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tektite Diving Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Kakariko Grotto Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Gerudo Valley Grotto Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Lon Lon Ranch</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Epona's Song</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Talon's Chickens</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tower Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ranch Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ranch House Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Rain Shed Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Tower Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Market</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Dog Lady</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Big Poe</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Treasure Chest Shop</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bombchu Bowling 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bombchu Bowling 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Child Shooting Gallery</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Guard Shack Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Temple of Time</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Prelude of Light</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Arrows</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Master Sword</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Temple of Time Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Hyrule Castle</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Malon's Egg</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zelda's Lullaby</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zelda's Letter</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hyrule Castle Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Castle Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Castle Storms Grotto Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Outside Ganon's Castle</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Outside Ganon's Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Outside Ganon's Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Kakariko Village</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Anju's Chickens</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Anju as Adult</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Wake Talon</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Nocturne of Shadow</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Kakariko Open Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Odd Potion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Song of Storms</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Windmill Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Redead Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Man on Roof</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Impa Cow Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Adult Shooting Gallery</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName> 10 Skulltula Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName> 20 Skulltula Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName> 30 Skulltula Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName> 40 Skulltula Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName> 50 Skulltula Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Guard Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Tower Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Construction Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Skulltula House Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Karariko Impa's Roof Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Kakariko Graveyard</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Dampe Digging</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Graveyard Crate Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dampe Race 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dampe Race 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shield Grave Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Redead Grave Sun's Song Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Sun's Song</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Royal Tomb Torch Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Graveyard Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Graveyard Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Death Mountain Trail</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Above Dodongo's Cavern Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Outside Goron City Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Persription</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Claim Check</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Biggoron Sword</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Storms Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Bombable Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Above Dodongo's Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Trail Path to Crater Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Goron City</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Boulder Maze Left Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Center Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Right Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Rolling Goron</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Link The Goron</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Medigoron</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Darunia's Joy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spinning Pot</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron City Boulder Maze Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron City Center Platform Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Death Mountain Crater</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Bolero of Fire</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Crater Wall Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Magic Bean Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Upper Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Crater Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Crater Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Crater Crate Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Zora’s River</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Frogs in the Rain</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Frog Ocarina Game</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Above Frogs Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Waterfall Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bean Salesman</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Open Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora River Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora River Ladder Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora River Near Grotto Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora River Near Bridge Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Zora’s Domain</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Diving Game</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Torch Run Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Thaw King Zora</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Eyeball Frog</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Domain Frozen Waterfall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Zora Fountain</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Iceberg Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Fountain Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Fountain Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Fountain Hidden Cave Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Lake Hylia</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Shoot the Sun</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Bottle</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lab Roof</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Child Fishing</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Adult Fishing</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lab Diving</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Eye Drops</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lake Hylia Lab Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lake Hylia Small Island Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lake Hylia Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lake Hylia Big Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Laboratory Dive Crate Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Gerudo Valley</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Canyon Crate Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Canyon Waterfall Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hammer Rocks Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Broken Goron’s Sword</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Valley Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Valley Small Waterfall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Valley Near Tent Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Valley Pillar Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Gerudo Fortress</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Roof Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Horseback Archery 1000</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Horseback Archery 1500</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Carpenter 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Carpenter 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Carpenter 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Carpenter 4</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Respect of the Gerudos</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Fortress Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gerudo Fortress Archery Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Haunted Wasteland</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Wasteland Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Haunted Wasteland Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Desert Colossus</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Bean Patch Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Requiem of Spirit</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Colossus Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Desert Colossus Soil Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Desert Colossus Tree Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Desert Colossus Plateau Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Deku Tree</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Lobby Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Room Side Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Slingshot Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Slingshot Side Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gohma Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Kokiri Emerald</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Tree Compass Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Tree Basement Vines Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Tree Basement Gate Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Tree Basement Back Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Dodongo’s Cavern</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bomb Flower Platform</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bomb Bag Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>End of Bridge Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest Above King Dodongo</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>King Dodongo Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Ruby</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo’s Cavern East Side Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo’s Cavern Scarecrow Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo’s Cavern Alcove Above Stairs Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo’s Cavern Vines Above Stairs Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo’s Cavern Back Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Jabu Jabu’s Belly</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Boomerang Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Barinade Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Sapphire</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Jabu Jabu Lobby Basement Lower Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Jabu Jabu Lobby Basement Upper Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Jabu Jabu Water Switch Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Jabu Jabu Near Boss Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Forest Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>First Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest Behind Lobby</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Well Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Outside Hookshot Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Block Push Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Red Poe</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Blue Poe</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Falling Ceiling Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Phantom Ganon Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Temple First Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Temple Outdoor West Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Temple Lobby Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Temple Outdoor East Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Forest Temple Basement Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Fire Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Chest Near Boss</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Dancer Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Big Lava Room Bombable Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Big Lava Room Open Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Lower Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Side Room</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Upper Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boulder Maze Shortcut Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Scarecrow Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Highest Goron Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Megaton Hammer Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Volvagia Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Temple Song of Time Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Temple Boulder Maze Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Temple Scarecrow 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Temple Scarecrow 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Temple Basement Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Water Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Torches Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dragon Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Central Bow Target Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Central Pillar Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Cracked Wall Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dark Link</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>River Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Morpha Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Temple Waterfalls Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Temple Cage Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Temple Center Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Temple Large Pit Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Temple River Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Spirit Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Child Left Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Child Right Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Child Climb East Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Child Climb North Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Sun Block Room Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Silver Gauntlets Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Early Adult Right Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>First Mirror Right Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>First Mirror Left Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Statue Room Hand</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Statue Room Northeast Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Four Armos Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hallway Left Invisible Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hallway Right Invisible Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mirror Shield Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Topmost Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twinrova Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Temple Child Climb Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Temple Child Fence Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Temple Iron Knuckle Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Temple Boulders Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spirit Temple Statue Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Shadow Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hover Boots Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Early Silver Rupees</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Invisible Blades Visible</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Invisible Blades Invisible</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Falling Spikes Lower</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Falling Spikes Upper</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Falling Spikes Switch</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Invisible Spikes Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Giant Pot Key</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Wind Hint Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>After Wind Hint Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>After Wind Hint Enemy Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spike Walls Left</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Spike Walls Right</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hidden Floormaster Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bongo Bongo Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Medallion</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Temple Like Likes Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Temple Falling Spikes Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Temple Skull Pot Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Temple Near Boat Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Temple Triple Skull Pot Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Bottom of the Well</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Front Left Hidden Wall</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Front Center Bombable</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Right Bottom Hidden Wall</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Center West Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Center East Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Back Left Bombable</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Coffin Key</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dead Hand</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Invisible Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Front Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Left Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Locked Pits</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Right Grate Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bottom of the Well Inner West Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bottom of the Well Inner East Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bottom of the Well East Cage Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ice Cavern</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Iron Boots Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Serenade of Water</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Cavern Scythe Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Cavern Block Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Cavern HP Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Gerudo Training Ground</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Lobby Left Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lobby Right Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Stalfos Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Beamos Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hidden Ceiling Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Path First Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Path Second Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Path Third Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Path Final Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Right Central Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Right Side Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Maze Right Side Key</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Silver Rupees Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hammer Room Clear Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hammer Room Switch Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Eye Statue Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Scarecrow Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Wolfos Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Heavy Block First Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Heavy Block Second Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Heavy Block Third Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Heavy Block Fourth Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ganon’s Castle</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Forest Trial Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Trial Left</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Trial Right</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Trial First Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Shadow Trial Second Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Left Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Left Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Left Chest 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Right Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Right Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Right Chest 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Invisible Enemies Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Trial Lullaby Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ganon's Castle Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+		</Regions>
+	</Tab>
+	<Tab>
+		<TabName>Majora's Mask</TabName>
+		<Content>Total Checks: 722</Content>
+		<Index>0</Index>
+		<Regions>
+			<Region>
+				<RegionName>North Clock Town</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Tree Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Blast Mask – Night 1, 12:20 AM</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Fairy as Human</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Fairy Non-Human</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bomber Notebook</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Playground One Day</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Playground All Days</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>South Clock Town</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Platform Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Skull Kid Song of Time</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Skull Kid Ocarina</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Business Scrub</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest on Ledge</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest on Tower, Day 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>West Clock Town</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Swordsman School Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Post Office Counting Game</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Post Office Priority Delivery</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Rosa Sisters Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bomb Shop Bomb Bag</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bomb Shop Bomb Bag 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bank Reward 200 Rupees</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bank Reward 1000 Rupees</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bank Reward 5000 Rupees</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Curiosity Shop All-Night Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>East Clock Town</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Mayor's Office Kafei's Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mayor's Office Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Astral Observatory Moon Tear</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Astral Observatory Passage Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Milk Bar Troupe Leader Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Milk Bar Madame Aroma Bottle</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Honey &amp; Darling Reward 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Honey &amp; Darling Reward 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Town Archery Reward 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Town Archery Reward 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest Game as Goron</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Silver Rupee Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Stock Pot Inn</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Anju, Room Key – Day 1, 1:45 - 4:00</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Knife Chamber</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Grandma Story 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Grandma Story 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Toilet Hand</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Midnight Meeting</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Staff Room – Final Night</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Couple’s Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Laundry Pool</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Guru Guru Mask Bremen</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Curiosity Shop Back Room Pendant of Memories</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Curiosity Shop Back Room Owner Reward 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Curiosity Shop Back Room Owner Reward 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Termina Field</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Gossip Stones Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dodongo Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Kamaro Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bio Baba Grotto – Beehive Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pillar Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Business Scrub/Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Peahat Grotto – Daytime only</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tall Grass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tall Grass Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Stump Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Milk Road</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Cucco Shack Bunny Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Doggy Racetrack Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Doggy Racetrack Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gorman Track Garo Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Romani Ranch Epona Song</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Romani Ranch Aliens</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Romani Ranch Cremia Escort</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Southern Swamp</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Road Swamp Tree Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Road to Swamp Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Swamp Archery Reward 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Swamp Archery Reward 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tourist Center Gift for Saving Koume</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tourist Center Archery</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tourist Center Tingle Picture</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Swamp Scrub Deed</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Southern Swamp Freestanding</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Woods of Mystery Grotto – Day 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Potion Shop – Talk to Kotake after seeing Koume hurt</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Southern Swamp Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Swamp Spider House Mask of Truth</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Song of Soaring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Palace Bean Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Palace Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Sonata of Awakening</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Shrine</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Near Temple Tall Stump</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Temple Platform</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Water Level Stump Near Temple</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Woodfall Temple Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Swamp Spider House</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Main Room 1F Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room 1F 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room 1F 3 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lower Dirt Patch 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lower Dirt Patch 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Monument Room Crate 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Monument Room Crate 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Stone Room Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Monument Room 2F 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Monument Room 2F 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Second Floor Pillar Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Second Floor on Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dirt Patch Second Floor Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot Room Beehive 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot Room Beehive 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Large and Small Pots 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Large and Small Pots 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Large and Small Pots 3 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Vines Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot Room Far Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gold Room Beehive Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gold Room Pillar Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gold Room Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gold Room on Ladder Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room in Tree 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room in Tree 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room in Tree 3 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room Beehive Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room Grass 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tree Room Grass 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Mountain</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Heal Darmani</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twin Islands Frozen Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twin Islands Ramp Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Elder</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Baby</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Village Scrub Deed</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Village Scrub Bomb Bag</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Village Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Medigoron – Open the Racetrack</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lone Peak Shrine Lens Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lone Peak Shrine Invisible Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lone Peak Shrine Boulder Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goron Race Reward</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Road to Temple Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Road to Temple Island Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Snowhead Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Path to Snowhead Grotto – Spring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twin Islands Underwater Chest 1 – Spring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twin Islands Underwater Chest 2 – Spring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Mountain Village</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Blacksmith Razor Blade</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Blacksmith Gilded Sword</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Frog Choir – Spring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hungry Goron</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Waterfall Chest - Spring</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ocean</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Great Bay Coast Zora Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Bay Coast Fisherman Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ocean Spider House Chest Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ocean Spider House All Tokens</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fisherman Minigame – Clean Ocean</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Bay Coast Ledge</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Laboratory Zora Song</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Laboratory Fish eart PieceP</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Hall Evan    ⮞⮞⮟A    A⮟⮞A    ⮜⮜⮞⮟    ⮟⮞⮜⮟</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Hall Scrub Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Hall Scrub Deed</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Hall Scene Lights</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Great Bay Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Cape Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Cape Underwater Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Cape Ledge Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Cape Ledge Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Zora Cape Waterfall HP</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Waterfall Rapids Beaver Race 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Waterfall Rapids Beaver Race 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pinnacle Rock Chest Upper</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pinnacle Rock Chest Lower</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pinnacle Rock Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ocean Spider House</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Slope Left Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Slope Right Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Web Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Skull on Wall Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Web Covered Pot 1F Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Uncovered Pot Main Room Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Wood Beam Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>On Bookshelf Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Cabinets Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Library Black Space Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hole Behind Painting Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Library Behind Painting Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Bookshelf Left Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Bookshelf Right Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement Black Space Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Vase in Basement Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Skull in Basement Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement Hole Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement Pot on Crates Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Storage Room Crate Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Storage Room Alcove Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Behind Boat Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Storage Room Rafters Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Storage Room Behind Web Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Chandelier 1 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Chandelier 2 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Chandelier 3 Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Painting Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Black Space Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mask Room Pot Skulltula</CheckName>
+						<CheckType>skull</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Pirate Fortress</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Exterior Near Gate</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Exterior In Corner</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Exterior Under Log</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tunnel Maze Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tunnel Jail Room Underwater 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tunnel Jail Room Underwater 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Tunnel Jail Room Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Interior Lower Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Interior Upper Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Hookshot Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Well Guarded Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fish Tank Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ikana Canyon</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Road to Ikana Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Road to Ikana Stone Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Road to Ikana Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Valley Scrub Trade</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Valley Scrub Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Valley Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Secret Shrine 4 Hearts</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Secret Shrine 8 Hearts</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Secret Shrine 12 Hearts</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Secret Shrine 16 Hearts</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Secret Shrine All Bosses</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Music Box House Gibdo Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Great Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ghost Hut Minigame</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Beneath the Well Mirror Shield</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Beneath the Well Skulltulla Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Beneath the Well Keese Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ancient Castle of Ikana Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ancient Castle of Ikana Song Emptiness</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Stone Tower Inverted Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Stone Tower Inverted Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Stone Tower Inverted Chest 3</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Ikana Graveyard</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Under Graveyard Night 1 – Kill Keese</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Under Graveyard Night 1 – Song of Storms</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Under Graveyard Night 2 – Iron Knuckle</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Under Graveyard Night 3 – Dampe</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Graveyard Grotto</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ikana Graveyard Captain Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Moon</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Moon Trial Deku Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Trial Goron Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Trial Zora Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Trial Link Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Trial Link Chest 2</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Trial Link Chest 1</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Moon Fierce Deity Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Misc/Multiple</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Oath to Order</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Clock Town Mailboxes</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Clock Town Stray Fairy</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Keaton</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Woodfall Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bow Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Odowla Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Odowla Blue Warp</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>By Entrance Platform Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Entrance Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Deku Baba Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Pots Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Wall Beehive Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bridge Room Skulltula Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bridge Beehive Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dark Room Boes Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Switch Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bubble under Bridge Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Final Room Right Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Final Room Right Upper Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Final Room Left Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Final Room Pillar Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Snowhead Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>First Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Second Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fire Arrow Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Third Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goht Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Goht Blue Warp</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bridge Room Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bridge Room Pillar Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Room with Map Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>In Crate Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Room Fake Wall Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Fake Ceiling Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ledge in Map Room Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Chest in Basement Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Switch Puzzle Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Push Double Blocks Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Kill Freezards in Pillar Room Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Snow Fake Wall Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dinolfos 1 Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Dinolfos 2 Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Fake Wall Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Great Bay Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Ice Arrows Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gyorg Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Gyorg Blue Warp</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Entrance Torches Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Under Platform Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pinwheel Skulltula Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Main Room Barrel Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot in Center Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot in Ledge Room Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bio Baba Hallway Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pot by Dexihands Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Green Room Ceiling Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Waterwheel Lower Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Waterwheel Upper Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Seesaw Barrel Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Seesaw Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>By Boss Exit Fairy Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Boss Room Bubble Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Stone Tower Temple</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Map Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>First Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Second Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Compass Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Light Arrows</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Entrance Eye Switch Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Basement Fairy Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Sun in Mirror Room Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Mirror Room Sun Block Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lava Room Fire Ring Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Lava Room Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Eyegore Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Underwater Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Death Armos Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Bridge Room Switch Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Pre Boss Crystal Switch Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
+				<RegionName>Inverted Stone Tower</RegionName>
+				<RegionType>dungeon</RegionType>
+				<Checks>
+					<Check>
+						<CheckName>Inverted First Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Second Small Key Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Giant’s Mask</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Boss Key</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twinmold Heart Container</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Twinmold Blue Warp</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Entrance Sun Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Updraft Flaming Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Frozen Eye Chest Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+					<Check>
+						<CheckName>Inverted Wizzrobe Stray Fairy</CheckName>
+						<CheckType>fairy</CheckType>
+						<IsChecked>false</IsChecked>
+					</Check>
+				</Checks>
+			</Region>
+		</Regions>
+	</Tab>
+	<Tab>
+		<TabName>Settings</TabName>
+		<Content>Total Checks: 722</Content>
+		<Index>0</Index>
+		<Regions>
+			<Region>
+				<RegionName>Tracker</RegionName>
+				<RegionType>settings</RegionType>
+				<Checks />
+			</Region>
+		</Regions>
+	</Tab>
+</ArrayOfTab>

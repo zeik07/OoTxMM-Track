@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tab name="Ocarina of Time">
+		<region name="Kokiri Forest">
+			<item>Kokiri Sword Chest</item>
+			<item>Mido's Chest 1</item>
+			<item>Mido's Chest 2</item>
+			<item>Mido's Chest 3</item>
+			<item>Mido's Chest 4</item>
+			<item>Storms Grotto</item>
+			<skull>Kokiri Soil Skulltula</skull>
+			<skull>Know It All House Skulltula</skull>
+			<skull>House of Twins Roof Skulltula</skull>
+		</region>
+		<region name="Lost Woods">
+			<item>Skull Kid</item>
+			<item>Lost Man</item>
+			<item>Poacher's Saw</item>
+			<item>Saria's Ocarina</item>
+			<item>Near Bridge Deku Scrub</item>
+			<item>Ocarina Memory Game</item>
+			<item>Target in the Woods</item>
+			<item>Grotto Near Meadow Deku Scrub (Left)</item>
+			<item>Near Goron City Grotto</item>
+			<item>Deku Theater Skull Mask</item>
+			<item>Deku Theater Mask of Truth</item>
+			<skull>Near Bridge Soil Skulltula</skull>
+			<skull>Near Deku Theater Soil Skulltula</skull>
+			<skull>Above Deku Theater Skulltula</skull>
+		</region>
+		<region name="Sacred Forest Meadow">
+			<item>Wolfos Grotto</item>
+			<item>Saria's Song</item>
+			<item>Minuet of Forest</item>
+			<skull>SFM Night Skulltula</skull>
+		</region>
+		<region name="Hyrule Field">
+			<item>Ocarina of Time</item>
+			<item>Song of Time</item>
+			<item>Near Market Grotto Chest</item>
+			<item>Near Forest Grotto Chest</item>
+			<item>Open Grotto Chest</item>
+			<item>Inside Fence Grotto Deku Scrub</item>
+			<item>Tektite Diving Grotto</item>
+			<skull>Near Kakariko Grotto Skulltula</skull>
+			<skull>Near Gerudo Valley Grotto Skulltula</skull>
+		</region>
+		<region name="Lon Lon Ranch">
+			<item>Epona's Song</item>
+			<item>Talon's Chickens</item>
+			<item>Tower Heart Piece</item>
+			<skull>Ranch Tree Skulltula</skull>
+			<skull>Ranch House Skulltula</skull>
+			<skull>Rain Shed Skulltula</skull>
+			<skull>Near Tower Skulltula</skull>
+		</region>
+		<region name="Market">
+			<item>Dog Lady</item>
+			<item>Big Poe</item>
+			<item>Treasure Chest Shop</item>
+			<item>Bombchu Bowling 1</item>
+			<item>Bombchu Bowling 2</item>
+			<item>Child Shooting Gallery</item>
+			<skull>Guard Shack Skulltula</skull>
+		</region>
+		<region name="Temple of Time">
+			<item>Prelude of Light</item>
+			<item>Light Arrows</item>
+			<item>Master Sword</item>
+			<item>Temple of Time Medallion</item>
+		</region>
+		<region name="Hyrule Castle">
+			<item>Malon's Egg</item>
+			<item>Zelda's Lullaby</item>
+			<item>Zelda's Letter</item>
+			<item>Hyrule Castle Great Fairy</item>
+			<skull>Castle Tree Skulltula</skull>
+			<skull>Castle Storms Grotto Skulltula</skull>
+		</region>
+		<region name="Outside Ganon's Castle">
+			<item>Outside Ganon's Great Fairy</item>
+			<skull>Outside Ganon's Skulltula</skull>
+		</region>
+		<region name="Kakariko Village">
+			<item>Anju's Chickens</item>
+			<item>Anju as Adult</item>
+			<item>Wake Talon</item>
+			<item>Nocturne of Shadow</item>
+			<item>Kakariko Open Grotto Chest</item>
+			<item>Odd Potion</item>
+			<item>Song of Storms</item>
+			<item>Windmill Heart Piece</item>
+			<item>Redead Grotto</item>
+			<item>Man on Roof</item>
+			<item>Impa Cow Heart Piece</item>
+			<item>Adult Shooting Gallery</item>
+			<item> 10 Skulltula Reward</item>
+			<item> 20 Skulltula Reward</item>
+			<item> 30 Skulltula Reward</item>
+			<item> 40 Skulltula Reward</item>
+			<item> 50 Skulltula Reward</item>
+			<skull>Karariko Tree Skulltula</skull>
+			<skull>Karariko Guard Skulltula</skull>
+			<skull>Karariko Tower Skulltula</skull>
+			<skull>Karariko Construction Skulltula</skull>
+			<skull>Karariko Skulltula House Skulltula</skull>
+			<skull>Karariko Impa's Roof Skulltula</skull>
+		</region>
+		<region name="Kakariko Graveyard">
+			<item>Dampe Digging</item>
+			<item>Graveyard Crate Heart Piece</item>
+			<item>Dampe Race 1</item>
+			<item>Dampe Race 2</item>
+			<item>Shield Grave Chest</item>
+			<item>Redead Grave Sun's Song Chest</item>
+			<item>Sun's Song</item>
+			<item>Royal Tomb Torch Chest</item>
+			<skull>Graveyard Soil Skulltula</skull>
+			<skull>Graveyard Wall Skulltula</skull>
+		</region>
+		<region name="Death Mountain Trail">
+			<item>Above Dodongo's Cavern Heart Piece</item>
+			<item>Outside Goron City Chest</item>
+			<item>Persription</item>
+			<item>Claim Check</item>
+			<item>Biggoron Sword</item>
+			<item>Trail Great Fairy</item>
+			<item>Trail Storms Grotto</item>
+			<skull>Trail Bombable Wall Skulltula</skull>
+			<skull>Trail Soil Skulltula</skull>
+			<skull>Trail Above Dodongo's Skulltula</skull>
+			<skull>Trail Path to Crater Skulltula</skull>
+		</region>
+		<region name="Goron City">
+			<item>Boulder Maze Left Chest</item>
+			<item>Boulder Maze Center Chest</item>
+			<item>Boulder Maze Right Chest</item>
+			<item>Rolling Goron</item>
+			<item>Link The Goron</item>
+			<item>Medigoron</item>
+			<item>Darunia's Joy</item>
+			<item>Spinning Pot</item>
+			<skull>Goron City Boulder Maze Skulltula</skull>
+			<skull>Goron City Center Platform Skulltula</skull>
+		</region>
+		<region name="Death Mountain Crater">
+			<item>Bolero of Fire</item>
+			<item>Crater Wall Heart Piece</item>
+			<item>Magic Bean Heart Piece</item>
+			<item>Upper Grotto Chest</item>
+			<item>Crater Great Fairy</item>
+			<skull>Crater Soil Skulltula</skull>
+			<skull>Crater Crate Skulltula</skull>
+		</region>
+		<region name="Zora’s River">
+			<item>Frogs in the Rain</item>
+			<item>Frog Ocarina Game</item>
+			<item>Above Frogs Heart Piece</item>
+			<item>Near Waterfall Heart Piece</item>
+			<item>Bean Salesman</item>
+			<item>Open Grotto Chest</item>
+			<skull>Zora River Tree Skulltula</skull>
+			<skull>Zora River Ladder Skulltula</skull>
+			<skull>Zora River Near Grotto Skulltula</skull>
+			<skull>Zora River Near Bridge Skulltula</skull>
+		</region>
+		<region name="Zora’s Domain">
+			<item>Diving Game</item>
+			<item>Torch Run Chest</item>
+			<item>Thaw King Zora</item>
+			<item>Eyeball Frog</item>
+			<skull>Zora Domain Frozen Waterfall Skulltula</skull>
+		</region>
+		<region name="Zora Fountain">
+			<item>Iceberg Heart Piece</item>
+			<item>Underwater Heart Piece</item>
+			<item>Great Fairy</item>
+			<skull>Zora Fountain Wall Skulltula</skull>
+			<skull>Zora Fountain Tree Skulltula</skull>
+			<skull>Zora Fountain Hidden Cave Skulltula</skull>
+		</region>
+		<region name="Lake Hylia">
+			<item>Shoot the Sun</item>
+			<item>Underwater Bottle</item>
+			<item>Lab Roof</item>
+			<item>Child Fishing</item>
+			<item>Adult Fishing</item>
+			<item>Lab Diving</item>
+			<item>Eye Drops</item>
+			<skull>Lake Hylia Lab Wall Skulltula</skull>
+			<skull>Lake Hylia Small Island Skulltula</skull>
+			<skull>Lake Hylia Soil Skulltula</skull>
+			<skull>Lake Hylia Big Tree Skulltula</skull>
+			<skull>Laboratory Dive Crate Skulltula</skull>
+		</region>
+		<region name="Gerudo Valley">
+			<item>Canyon Crate Heart Piece</item>
+			<item>Canyon Waterfall Heart Piece</item>
+			<item>Hammer Rocks Chest</item>
+			<item>Broken Goron’s Sword</item>
+			<skull>Gerudo Valley Soil Skulltula</skull>
+			<skull>Gerudo Valley Small Waterfall Skulltula</skull>
+			<skull>Gerudo Valley Near Tent Skulltula</skull>
+			<skull>Gerudo Valley Pillar Skulltula</skull>
+		</region>
+		<region name="Gerudo Fortress">
+			<item>Roof Chest</item>
+			<item>Horseback Archery 1000</item>
+			<item>Horseback Archery 1500</item>
+			<item>Carpenter 1</item>
+			<item>Carpenter 2</item>
+			<item>Carpenter 3</item>
+			<item>Carpenter 4</item>
+			<item>Respect of the Gerudos</item>
+			<skull>Gerudo Fortress Wall Skulltula</skull>
+			<skull>Gerudo Fortress Archery Skulltula</skull>
+		</region>
+		<region name="Haunted Wasteland">
+			<item name="off">Carpet Salesman</item>
+			<item>Wasteland Chest</item>
+			<skull>Haunted Wasteland Skulltula</skull>
+		</region>
+		<region name="Desert Colossus">
+			<item>Bean Patch Heart Piece</item>
+			<item>Requiem of Spirit</item>
+			<item>Colossus Great Fairy</item>
+			<skull>Desert Colossus Soil Skulltula</skull>
+			<skull>Desert Colossus Tree Skulltula</skull>
+			<skull>Desert Colossus Plateau Skulltula</skull>
+		</region>
+		<region name="Deku Tree" type="dungeon">
+			<item>Lobby Chest</item>
+			<item>Compass Chest</item>
+			<item>Compass Room Side Chest</item>
+			<item>Slingshot Chest</item>
+			<item>Slingshot Side Chest</item>
+			<item>Basement</item>
+			<item>Gohma Heart Container</item>
+			<item>Kokiri Emerald</item>
+			<skull>Deku Tree Compass Skulltula</skull>
+			<skull>Deku Tree Basement Vines Skulltula</skull>
+			<skull>Deku Tree Basement Gate Skulltula</skull>
+			<skull>Deku Tree Basement Back Room Skulltula</skull>
+		</region>
+		<region name="Dodongo’s Cavern" type="dungeon">
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Bomb Flower Platform</item>
+			<item>Bomb Bag Chest</item>
+			<item>End of Bridge Chest</item>
+			<item>Chest Above King Dodongo</item>
+			<item>King Dodongo Heart Container</item>
+			<item>Goron Ruby</item>
+			<skull>Dodongo’s Cavern East Side Room Skulltula</skull>
+			<skull>Dodongo’s Cavern Scarecrow Skulltula</skull>
+			<skull>Dodongo’s Cavern Alcove Above Stairs Skulltula</skull>
+			<skull>Dodongo’s Cavern Vines Above Stairs Skulltula</skull>
+			<skull>Dodongo’s Cavern Back Room Skulltula</skull>
+		</region>
+		<region name="Jabu Jabu’s Belly" type="dungeon">
+			<item>Boomerang Chest</item>
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Barinade Heart Container</item>
+			<item>Zora Sapphire</item>
+			<skull>Jabu Jabu Lobby Basement Lower Skulltula</skull>
+			<skull>Jabu Jabu Lobby Basement Upper Skulltula</skull>
+			<skull>Jabu Jabu Water Switch Room Skulltula</skull>
+			<skull>Jabu Jabu Near Boss Skulltula</skull>
+		</region>
+		<region name="Forest Temple" type="dungeon">
+			<item>First Chest</item>
+			<item>Chest Behind Lobby</item>
+			<item>Well Chest</item>
+			<item>Map Chest</item>
+			<item>Outside Hookshot Chest</item>
+			<item>Block Push Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Red Poe</item>
+			<item>Blue Poe</item>
+			<item>Falling Ceiling Chest</item>
+			<item>Basement</item>
+			<item>Phantom Ganon Heart Container</item>
+			<item>Forest Medallion</item>
+			<skull>Forest Temple First Room Skulltula</skull>
+			<skull>Forest Temple Outdoor West Skulltula</skull>
+			<skull>Forest Temple Lobby Skulltula</skull>
+			<skull>Forest Temple Outdoor East Skulltula</skull>
+			<skull>Forest Temple Basement Skulltula</skull>
+		</region>
+		<region name="Fire Temple" type="dungeon">
+			<item>Chest Near Boss</item>
+			<item>Fire Dancer Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Big Lava Room Bombable Chest</item>
+			<item>Big Lava Room Open Chest</item>
+			<item>Boulder Maze Lower Chest</item>
+			<item>Boulder Maze Side Room</item>
+			<item>Boulder Maze Upper Chest</item>
+			<item>Boulder Maze Shortcut Chest</item>
+			<item>Scarecrow Chest</item>
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Highest Goron Chest</item>
+			<item>Megaton Hammer Chest</item>
+			<item>Volvagia Heart Container</item>
+			<item>Fire Medallion</item>
+			<skull>Fire Temple Song of Time Room Skulltula</skull>
+			<skull>Fire Temple Boulder Maze Skulltula</skull>
+			<skull>Fire Temple Scarecrow 1 Skulltula</skull>
+			<skull>Fire Temple Scarecrow 2 Skulltula</skull>
+			<skull>Fire Temple Basement Skulltula</skull>
+		</region>
+		<region name="Water Temple" type="dungeon">
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Torches Chest</item>
+			<item>Dragon Chest</item>
+			<item>Central Bow Target Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Central Pillar Chest</item>
+			<item>Cracked Wall Chest</item>
+			<item>Dark Link</item>
+			<item>River Chest</item>
+			<item>Morpha Heart Container</item>
+			<item>Water Medallion</item>
+			<skull>Water Temple Waterfalls Skulltula</skull>
+			<skull>Water Temple Cage Skulltula</skull>
+			<skull>Water Temple Center Skulltula</skull>
+			<skull>Water Temple Large Pit Skulltula</skull>
+			<skull>Water Temple River Skulltula</skull>
+		</region>
+		<region name="Spirit Temple" type="dungeon">
+			<item>Child Left Chest</item>
+			<item>Child Right Chest</item>
+			<item>Child Climb East Chest</item>
+			<item>Child Climb North Chest</item>
+			<item>Sun Block Room Chest</item>
+			<item>Map Chest</item>
+			<item>Silver Gauntlets Chest</item>
+			<item>Compass Chest</item>
+			<item>Early Adult Right Chest</item>
+			<item>First Mirror Right Chest</item>
+			<item>First Mirror Left Chest</item>
+			<item>Statue Room Hand</item>
+			<item>Statue Room Northeast Chest</item>
+			<item>Near Four Armos Chest</item>
+			<item>Hallway Left Invisible Chest</item>
+			<item>Hallway Right Invisible Chest</item>
+			<item>Mirror Shield Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Topmost Chest</item>
+			<item>Twinrova Heart Container</item>
+			<item>Spirit Medallion</item>
+			<skull>Spirit Temple Child Climb Skulltula</skull>
+			<skull>Spirit Temple Child Fence Skulltula</skull>
+			<skull>Spirit Temple Iron Knuckle Skulltula</skull>
+			<skull>Spirit Temple Boulders Skulltula</skull>
+			<skull>Spirit Temple Statue Skulltula</skull>
+		</region>
+		<region name="Shadow Temple" type="dungeon">
+			<item>Map Chest</item>
+			<item>Hover Boots Chest</item>
+			<item>Compass Chest</item>
+			<item>Early Silver Rupees</item>
+			<item>Invisible Blades Visible</item>
+			<item>Invisible Blades Invisible</item>
+			<item>Falling Spikes Lower</item>
+			<item>Falling Spikes Upper</item>
+			<item>Falling Spikes Switch</item>
+			<item>Invisible Spikes Chest</item>
+			<item>Giant Pot Key</item>
+			<item>Wind Hint Chest</item>
+			<item>After Wind Hint Chest</item>
+			<item>After Wind Hint Enemy Chest</item>
+			<item>Spike Walls Left</item>
+			<item>Spike Walls Right</item>
+			<item>Hidden Floormaster Chest</item>
+			<item>Bongo Bongo Heart Container</item>
+			<item>Shadow Medallion</item>
+			<skull>Shadow Temple Like Likes Skulltula</skull>
+			<skull>Shadow Temple Falling Spikes Skulltula</skull>
+			<skull>Shadow Temple Skull Pot Skulltula</skull>
+			<skull>Shadow Temple Near Boat Skulltula</skull>
+			<skull>Shadow Temple Triple Skull Pot Skulltula</skull>
+		</region>
+		<region name="Bottom of the Well" type="dungeon">
+			<item>Front Left Hidden Wall</item>
+			<item>Front Center Bombable</item>
+			<item>Right Bottom Hidden Wall</item>
+			<item>Center West Chest</item>
+			<item>Center East Chest</item>
+			<item>Back Left Bombable</item>
+			<item>Coffin Key</item>
+			<item>Dead Hand</item>
+			<item>Invisible Chest</item>
+			<item>Underwater Front Chest</item>
+			<item>Underwater Left Chest</item>
+			<item>Basement Chest</item>
+			<item>Locked Pits</item>
+			<item>Behind Right Grate Chest</item>
+			<skull>Bottom of the Well Inner West Skulltula</skull>
+			<skull>Bottom of the Well Inner East Skulltula</skull>
+			<skull>Bottom of the Well East Cage Skulltula</skull>
+		</region>
+		<region name="Ice Cavern" type="dungeon">
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Heart Piece</item>
+			<item>Iron Boots Chest</item>
+			<item>Serenade of Water</item>
+			<skull>Ice Cavern Scythe Room Skulltula</skull>
+			<skull>Ice Cavern Block Room Skulltula</skull>
+			<skull>Ice Cavern HP Room Skulltula</skull>
+		</region>
+		<region name="Gerudo Training Ground" type="dungeon">
+			<item>Lobby Left Chest</item>
+			<item>Lobby Right Chest</item>
+			<item>Stalfos Chest</item>
+			<item>Beamos Chest</item>
+			<item>Hidden Ceiling Chest</item>
+			<item>Maze Path First Chest</item>
+			<item>Maze Path Second Chest</item>
+			<item>Maze Path Third Chest</item>
+			<item>Maze Path Final Chest</item>
+			<item>Maze Right Central Chest</item>
+			<item>Maze Right Side Chest</item>
+			<item>Maze Right Side Key</item>
+			<item>Underwater Silver Rupees Chest</item>
+			<item>Hammer Room Clear Chest</item>
+			<item>Hammer Room Switch Chest</item>
+			<item>Eye Statue Chest</item>
+			<item>Near Scarecrow Chest</item>
+			<item>Wolfos Chest</item>
+			<item>Heavy Block First Chest</item>
+			<item>Heavy Block Second Chest</item>
+			<item>Heavy Block Third Chest</item>
+			<item>Heavy Block Fourth Chest</item>
+		</region>
+		<region name="Ganon’s Castle" type="dungeon">
+			<item>Forest Trial Chest</item>
+			<item>Water Trial Left</item>
+			<item>Water Trial Right</item>
+			<item>Shadow Trial First Chest</item>
+			<item>Shadow Trial Second Chest</item>
+			<item>Light Trial Left Chest 1</item>
+			<item>Light Trial Left Chest 2</item>
+			<item>Light Trial Left Chest 3</item>
+			<item>Light Trial Right Chest 1</item>
+			<item>Light Trial Right Chest 2</item>
+			<item>Light Trial Right Chest 3</item>
+			<item>Light Trial Invisible Enemies Chest</item>
+			<item>Light Trial Lullaby Chest</item>
+			<item>Ganon's Castle Boss Key Chest</item>
+		</region>
+	</tab>
+	<tab name="Majora's Mask">
+		<region name="North Clock Town">
+			<item>Tree Heart Piece</item>
+			<item>Blast Mask – Night 1, 12:20 AM</item>
+			<item>Great Fairy as Human</item>
+			<item>Great Fairy Non-Human</item>
+			<item>Bomber Notebook</item>
+			<item>Deku Playground One Day</item>
+			<item>Deku Playground All Days</item>
+		</region>
+		<region name="South Clock Town">
+			<item>Platform Heart Piece</item>
+			<item>Skull Kid Song of Time</item>
+			<item>Skull Kid Ocarina</item>
+			<item>Business Scrub</item>
+			<item>Chest on Ledge</item>
+			<item>Chest on Tower, Day 3</item>
+		</region>
+		<region name="West Clock Town">
+			<item>Swordsman School Heart Piece</item>
+			<item>Post Office Counting Game</item>
+			<item>Post Office Priority Delivery</item>
+			<item>Rosa Sisters Heart Piece</item>
+			<item>Bomb Shop Bomb Bag</item>
+			<item>Bomb Shop Bomb Bag 2</item>
+			<item>Bank Reward 200 Rupees</item>
+			<item>Bank Reward 1000 Rupees</item>
+			<item>Bank Reward 5000 Rupees</item>
+			<item>Curiosity Shop All-Night Mask</item>
+		</region>
+		<region name="East Clock Town">
+			<item>Mayor's Office Kafei's Mask</item>
+			<item>Mayor's Office Heart Piece</item>
+			<item>Astral Observatory Moon Tear</item>
+			<item>Astral Observatory Passage Chest</item>
+			<item>Milk Bar Troupe Leader Mask</item>
+			<item>Milk Bar Madame Aroma Bottle</item>
+			<item>Honey &amp; Darling Reward 1</item>
+			<item>Honey &amp; Darling Reward 2</item>
+			<item>Town Archery Reward 1</item>
+			<item>Town Archery Reward 2</item>
+			<item>Chest Game as Goron</item>
+			<item>Silver Rupee Chest</item>
+		</region>
+		<region name="Stock Pot Inn">
+			<item>Anju, Room Key – Day 1, 1:45 - 4:00</item>
+			<item>Knife Chamber</item>
+			<item>Grandma Story 1</item>
+			<item>Grandma Story 2</item>
+			<item>Toilet Hand</item>
+			<item>Midnight Meeting</item>
+			<item>Staff Room – Final Night</item>
+			<item>Couple’s Mask</item>
+		</region>
+		<region name="Laundry Pool">
+			<item>Guru Guru Mask Bremen</item>
+			<item>Curiosity Shop Back Room Pendant of Memories</item>
+			<item>Curiosity Shop Back Room Owner Reward 1</item>
+			<item>Curiosity Shop Back Room Owner Reward 2</item>
+		</region>
+		<region name="Termina Field">
+			<item>Gossip Stones Heart Piece</item>
+			<item>Dodongo Grotto</item>
+			<item>Kamaro Mask</item>
+			<item>Bio Baba Grotto – Beehive Heart Piece</item>
+			<item>Pillar Grotto</item>
+			<item>Underwater Chest</item>
+			<item>Business Scrub/Grotto</item>
+			<item>Peahat Grotto – Daytime only</item>
+			<item>Tall Grass Chest</item>
+			<item>Tall Grass Grotto</item>
+			<item>Tree Stump Chest</item>
+		</region>
+		<region name="Milk Road">
+			<item>Cucco Shack Bunny Mask</item>
+			<item>Doggy Racetrack Chest</item>
+			<item>Doggy Racetrack Heart Piece</item>
+			<item>Gorman Track Garo Mask</item>
+			<item>Romani Ranch Epona Song</item>
+			<item>Romani Ranch Aliens</item>
+			<item>Romani Ranch Cremia Escort</item>
+		</region>
+		<region name="Southern Swamp">
+			<item>Road Swamp Tree Heart Piece</item>
+			<item>Road to Swamp Grotto</item>
+			<item>Swamp Archery Reward 1</item>
+			<item>Swamp Archery Reward 2</item>
+			<item>Tourist Center Gift for Saving Koume</item>
+			<item>Tourist Center Archery</item>
+			<item>Tourist Center Tingle Picture</item>
+			<item>Swamp Scrub Deed</item>
+			<item>Southern Swamp Freestanding</item>
+			<item>Woods of Mystery Grotto – Day 2</item>
+			<item>Potion Shop – Talk to Kotake after seeing Koume hurt</item>
+			<item>Southern Swamp Grotto</item>
+			<item>Swamp Spider House Mask of Truth</item>
+			<item>Song of Soaring</item>
+			<item>Deku Palace Bean Grotto Chest</item>
+			<item>Deku Palace Heart Piece</item>
+			<item>Sonata of Awakening</item>
+			<item>Deku Shrine</item>
+			<item>Near Temple Tall Stump</item>
+			<item>Behind Temple Platform</item>
+			<item>Water Level Stump Near Temple</item>
+			<item>Woodfall Temple Great Fairy</item>
+		</region>
+		<region name="Swamp Spider House">
+			<skull>Main Room 1F Skulltula</skull>
+			<skull>Main Room 1F 2 Skulltula</skull>
+			<skull>Main Room 1F 3 Skulltula</skull>
+			<skull>Lower Dirt Patch 1 Skulltula</skull>
+			<skull>Lower Dirt Patch 2 Skulltula</skull>
+			<skull>Monument Room Crate 1 Skulltula</skull>
+			<skull>Monument Room Crate 2 Skulltula</skull>
+			<skull>Stone Room Wall Skulltula</skull>
+			<skull>Monument Room 2F 1 Skulltula</skull>
+			<skull>Monument Room 2F 2 Skulltula</skull>
+			<skull>Second Floor Pillar Skulltula</skull>
+			<skull>Second Floor on Wall Skulltula</skull>
+			<skull>Dirt Patch Second Floor Skulltula</skull>
+			<skull>Pot Room Beehive 1 Skulltula</skull>
+			<skull>Pot Room Beehive 2 Skulltula</skull>
+			<skull>Large and Small Pots 1 Skulltula</skull>
+			<skull>Large and Small Pots 2 Skulltula</skull>
+			<skull>Large and Small Pots 3 Skulltula</skull>
+			<skull>Behind Vines Skulltula</skull>
+			<skull>Pot Room Far Wall Skulltula</skull>
+			<skull>Gold Room Beehive Skulltula</skull>
+			<skull>Gold Room Pillar Skulltula</skull>
+			<skull>Gold Room Wall Skulltula</skull>
+			<skull>Gold Room on Ladder Skulltula</skull>
+			<skull>Tree Room in Tree 1 Skulltula</skull>
+			<skull>Tree Room in Tree 2 Skulltula</skull>
+			<skull>Tree Room in Tree 3 Skulltula</skull>
+			<skull>Tree Room Beehive Skulltula</skull>
+			<skull>Tree Room Grass 1 Skulltula</skull>
+			<skull>Tree Room Grass 2 Skulltula</skull>
+		</region>
+		<region name="Mountain">
+			<item>Heal Darmani</item>
+			<item>Twin Islands Frozen Grotto Chest</item>
+			<item>Twin Islands Ramp Grotto Chest</item>
+			<item>Goron Elder</item>
+			<item>Goron Baby</item>
+			<item>Goron Village Scrub Deed</item>
+			<item>Goron Village Scrub Bomb Bag</item>
+			<item>Goron Village Heart Piece</item>
+			<item>Medigoron – Open the Racetrack</item>
+			<item>Lone Peak Shrine Lens Chest</item>
+			<item>Lone Peak Shrine Invisible Chest</item>
+			<item>Lone Peak Shrine Boulder Chest</item>
+			<item>Goron Race Reward</item>
+			<item>Road to Temple Grotto</item>
+			<item>Road to Temple Island Heart Piece</item>
+			<item>Snowhead Great Fairy</item>
+			<item>Path to Snowhead Grotto – Spring</item>
+			<item>Twin Islands Underwater Chest 1 – Spring</item>
+			<item>Twin Islands Underwater Chest 2 – Spring</item>
+		</region>
+		<region name="Mountain Village">
+			<item>Blacksmith Razor Blade</item>
+			<item>Blacksmith Gilded Sword</item>
+			<item>Frog Choir – Spring</item>
+			<item>Hungry Goron</item>
+			<item>Waterfall Chest - Spring</item>
+		</region>
+		<region name="Ocean">
+			<item>Great Bay Coast Zora Mask</item>
+			<item>Great Bay Coast Fisherman Grotto</item>
+			<item>Ocean Spider House Chest Heart Piece</item>
+			<item>Ocean Spider House All Tokens</item>
+			<item>Fisherman Minigame – Clean Ocean</item>
+			<item>Great Bay Coast Ledge</item>
+			<item>Laboratory Zora Song</item>
+			<item>Laboratory Fish eart PieceP</item>
+			<item>Zora Hall Evan    &#x2B9E;&#x2B9E;&#x2B9F;A    A&#x2B9F;&#x2B9E;A    &#x2B9C;&#x2B9C;&#x2B9E;&#x2B9F;    &#x2B9F;&#x2B9E;&#x2B9C;&#x2B9F;</item>
+			<item>Zora Hall Scrub Heart Piece</item>
+			<item>Zora Hall Scrub Deed</item>
+			<item>Zora Hall Scene Lights</item>
+			<item>Great Bay Fairy</item>
+			<item>Zora Cape Grotto</item>
+			<item>Zora Cape Underwater Chest</item>
+			<item>Zora Cape Ledge Chest 1</item>
+			<item>Zora Cape Ledge Chest 2</item>
+			<item>Zora Cape Waterfall HP</item>
+			<item>Waterfall Rapids Beaver Race 1</item>
+			<item>Waterfall Rapids Beaver Race 2</item>
+			<item>Pinnacle Rock Chest Upper</item>
+			<item>Pinnacle Rock Chest Lower</item>
+			<item>Pinnacle Rock Heart Piece</item>
+		</region>
+		<region name="Ocean Spider House">
+			<skull>Slope Left Skulltula</skull>
+			<skull>Slope Right Skulltula</skull>
+			<skull>Behind Web Skulltula</skull>
+			<skull>Behind Skull on Wall Skulltula</skull>
+			<skull>Web Covered Pot 1F Skulltula</skull>
+			<skull>Uncovered Pot Main Room Skulltula</skull>
+			<skull>Main Room Wood Beam Skulltula</skull>
+			<skull>On Bookshelf Skulltula</skull>
+			<skull>Behind Cabinets Skulltula</skull>
+			<skull>Library Black Space Skulltula</skull>
+			<skull>Hole Behind Painting Skulltula</skull>
+			<skull>Library Behind Painting Skulltula</skull>
+			<skull>Behind Bookshelf Left Skulltula</skull>
+			<skull>Behind Bookshelf Right Skulltula</skull>
+			<skull>Basement Black Space Skulltula</skull>
+			<skull>Vase in Basement Skulltula</skull>
+			<skull>Behind Skull in Basement Skulltula</skull>
+			<skull>Basement Hole Skulltula</skull>
+			<skull>Basement Pot on Crates Skulltula</skull>
+			<skull>Storage Room Crate Skulltula</skull>
+			<skull>Storage Room Alcove Skulltula</skull>
+			<skull>Behind Boat Skulltula</skull>
+			<skull>Storage Room Rafters Skulltula</skull>
+			<skull>Storage Room Behind Web Skulltula</skull>
+			<skull>Mask Room Chandelier 1 Skulltula</skull>
+			<skull>Mask Room Chandelier 2 Skulltula</skull>
+			<skull>Mask Room Chandelier 3 Skulltula</skull>
+			<skull>Mask Room Painting Skulltula</skull>
+			<skull>Mask Room Black Space Skulltula</skull>
+			<skull>Mask Room Pot Skulltula</skull>
+		</region>
+		<region name="Pirate Fortress">
+			<item>Exterior Near Gate</item>
+			<item>Exterior In Corner</item>
+			<item>Exterior Under Log</item>
+			<item>Tunnel Maze Chest</item>
+			<item>Tunnel Jail Room Underwater 1</item>
+			<item>Tunnel Jail Room Underwater 2</item>
+			<item>Tunnel Jail Room Heart Piece</item>
+			<item>Interior Lower Chest</item>
+			<item>Interior Upper Chest</item>
+			<item>Hookshot Chest</item>
+			<item>Well Guarded Chest</item>
+			<item>Fish Tank Chest</item>
+		</region>
+		<region name="Ikana Canyon">
+			<item>Road to Ikana Chest</item>
+			<item>Road to Ikana Stone Mask</item>
+			<item>Road to Ikana Grotto</item>
+			<item>Ikana Valley Scrub Trade</item>
+			<item>Ikana Valley Scrub Heart Piece</item>
+			<item>Ikana Valley Grotto</item>
+			<item>Secret Shrine 4 Hearts</item>
+			<item>Secret Shrine 8 Hearts</item>
+			<item>Secret Shrine 12 Hearts</item>
+			<item>Secret Shrine 16 Hearts</item>
+			<item>Secret Shrine All Bosses</item>
+			<item>Music Box House Gibdo Mask</item>
+			<item>Ikana Great Fairy</item>
+			<item>Ghost Hut Minigame</item>
+			<item>Beneath the Well Mirror Shield</item>
+			<item>Beneath the Well Skulltulla Chest</item>
+			<item>Beneath the Well Keese Chest</item>
+			<item>Ancient Castle of Ikana Heart Piece</item>
+			<item>Ancient Castle of Ikana Song Emptiness</item>
+			<item>Stone Tower Inverted Chest 1</item>
+			<item>Stone Tower Inverted Chest 2</item>
+			<item>Stone Tower Inverted Chest 3</item>
+		</region>
+		<region name="Ikana Graveyard">
+			<item>Under Graveyard Night 1 – Kill Keese</item>
+			<item>Under Graveyard Night 1 – Song of Storms</item>
+			<item>Under Graveyard Night 2 – Iron Knuckle</item>
+			<item>Under Graveyard Night 3 – Dampe</item>
+			<item>Ikana Graveyard Grotto</item>
+			<item>Ikana Graveyard Captain Mask</item>
+		</region>
+		<region name="Moon">
+			<item>Moon Trial Deku Heart Piece</item>
+			<item>Moon Trial Goron Heart Piece</item>
+			<item>Moon Trial Zora Heart Piece</item>
+			<item>Moon Trial Link Heart Piece</item>
+			<item>Moon Trial Link Chest 2</item>
+			<item>Moon Trial Link Chest 1</item>
+			<item>Moon Fierce Deity Mask</item>
+		</region>
+		<region name="Misc/Multiple">
+			<item>Oath to Order</item>
+			<item>Clock Town Mailboxes</item>
+			<item>Clock Town Stray Fairy</item>
+			<item>Keaton</item>
+			<item name="off">Tingle Clock Town Map</item>
+			<item name="off">Tingle Swamp Map</item>
+			<item name="off">Tingle Mountain Map</item>
+			<item name="off">Tingle Ranch Map</item>
+			<item name="off">Tingle Ocean Map</item>
+			<item name="off">Tingle Canyon Map</item>
+		</region>
+		<region name="Woodfall Temple" type="dungeon">
+			<item>Small Key Chest</item>
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Bow Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Odowla Heart Container</item>
+			<item>Odowla Blue Warp</item>
+			<fairy>By Entrance Platform Stray Fairy</fairy>
+			<fairy>Entrance Chest Stray Fairy</fairy>
+			<fairy>Deku Baba Stray Fairy</fairy>
+			<fairy>Main Room Pots Stray Fairy</fairy>
+			<fairy>Wall Beehive Stray Fairy</fairy>
+			<fairy>Bridge Room Skulltula Stray Fairy</fairy>
+			<fairy>Bridge Beehive Stray Fairy</fairy>
+			<fairy>Dark Room Boes Stray Fairy</fairy>
+			<fairy>Main Room Bubble Stray Fairy</fairy>
+			<fairy>Main Room Switch Chest Stray Fairy</fairy>
+			<fairy>Bubble under Bridge Stray Fairy</fairy>
+			<fairy>Final Room Right Bubble Stray Fairy</fairy>
+			<fairy>Final Room Right Upper Bubble Stray Fairy</fairy>
+			<fairy>Final Room Left Bubble Stray Fairy</fairy>
+			<fairy>Final Room Pillar Stray Fairy</fairy>
+		</region>
+		<region name="Snowhead Temple" type="dungeon">
+			<item>Map Chest</item>
+			<item>First Small Key Chest</item>
+			<item>Compass Chest</item>
+			<item>Second Small Key Chest</item>
+			<item>Fire Arrow Chest</item>
+			<item>Third Small Key Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Goht Heart Container</item>
+			<item>Goht Blue Warp</item>
+			<fairy>Bridge Room Bubble Stray Fairy</fairy>
+			<fairy>Bridge Room Pillar Stray Fairy</fairy>
+			<fairy>Room with Map Chest Stray Fairy</fairy>
+			<fairy>In Crate Stray Fairy</fairy>
+			<fairy>Ice Room Fake Wall Stray Fairy</fairy>
+			<fairy>Fake Ceiling Bubble Stray Fairy</fairy>
+			<fairy>Ledge in Map Room Stray Fairy</fairy>
+			<fairy>Chest in Basement Stray Fairy</fairy>
+			<fairy>Ice Switch Puzzle Stray Fairy</fairy>
+			<fairy>Push Double Blocks Stray Fairy</fairy>
+			<fairy>Kill Freezards in Pillar Room Stray Fairy</fairy>
+			<fairy>Snow Fake Wall Stray Fairy</fairy>
+			<fairy>Dinolfos 1 Stray Fairy</fairy>
+			<fairy>Dinolfos 2 Stray Fairy</fairy>
+			<fairy>Main Room Fake Wall Stray Fairy</fairy>
+		</region>
+		<region name="Great Bay Temple" type="dungeon">
+			<item>Map Chest</item>
+			<item>Compass Chest</item>
+			<item>Small Key Chest</item>
+			<item>Boss Key Chest</item>
+			<item>Ice Arrows Chest</item>
+			<item>Gyorg Heart Container</item>
+			<item>Gyorg Blue Warp</item>
+			<fairy>Light Entrance Torches Stray Fairy</fairy>
+			<fairy>Under Platform Stray Fairy</fairy>
+			<fairy>Pinwheel Skulltula Stray Fairy</fairy>
+			<fairy>Main Room Barrel Stray Fairy</fairy>
+			<fairy>Pot in Center Stray Fairy</fairy>
+			<fairy>Pot in Ledge Room Stray Fairy</fairy>
+			<fairy>Bio Baba Hallway Stray Fairy</fairy>
+			<fairy>Pot by Dexihands Stray Fairy</fairy>
+			<fairy>Green Room Ceiling Stray Fairy</fairy>
+			<fairy>Waterwheel Lower Chest Stray Fairy</fairy>
+			<fairy>Waterwheel Upper Chest Stray Fairy</fairy>
+			<fairy>Seesaw Barrel Stray Fairy</fairy>
+			<fairy>Seesaw Chest Stray Fairy</fairy>
+			<fairy>By Boss Exit Fairy Stray Fairy</fairy>
+			<fairy>Boss Room Bubble Stray Fairy</fairy>
+		</region>
+		<region name="Stone Tower Temple" type="dungeon">
+			<item>Map Chest</item>
+			<item>First Small Key Chest</item>
+			<item>Second Small Key Chest</item>
+			<item>Compass Chest</item>
+			<item>Light Arrows</item>
+			<fairy>Entrance Eye Switch Stray Fairy</fairy>
+			<fairy>Basement Fairy Stray Fairy</fairy>
+			<fairy>Sun in Mirror Room Stray Fairy</fairy>
+			<fairy>Mirror Room Sun Block Stray Fairy</fairy>
+			<fairy>Lava Room Fire Ring Stray Fairy</fairy>
+			<fairy>Lava Room Chest Stray Fairy</fairy>
+			<fairy>Eyegore Stray Fairy</fairy>
+			<fairy>Underwater Chest Stray Fairy</fairy>
+			<fairy>Inverted Death Armos Stray Fairy</fairy>
+			<fairy>Bridge Room Switch Stray Fairy</fairy>
+			<fairy>Pre Boss Crystal Switch Stray Fairy</fairy>
+		</region>
+		<region name="Inverted Stone Tower" type="dungeon">
+			<item>Inverted First Small Key Chest</item>
+			<item>Inverted Second Small Key Chest</item>
+			<item>Inverted Giant’s Mask</item>
+			<item>Inverted Boss Key</item>
+			<item>Twinmold Heart Container</item>
+			<item>Twinmold Blue Warp</item>
+			<fairy>Inverted Entrance Sun Stray Fairy</fairy>
+			<fairy>Inverted Updraft Flaming Chest Stray Fairy</fairy>
+			<fairy>Inverted Frozen Eye Chest Stray Fairy</fairy>
+			<fairy>Inverted Wizzrobe Stray Fairy</fairy>
+		</region>
+	</tab>
+	<tab name="Settings">
+		<region name="Tracker">
+			<setting name="off">Skulls</setting>
+			<setting name="off">Fairies</setting>
+		</region>
+	</tab>
+</root>
