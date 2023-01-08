@@ -1,5 +1,7 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
@@ -123,15 +125,6 @@ namespace OoTxMM_Track
             {
                 File.Delete("SaveData.xml");
             }
-            var left = Application.Current.MainWindow.Left;
-            var top = Application.Current.MainWindow.Top;
-            MainWindow newWin = new MainWindow
-            {
-                Left = left,
-                Top = top
-            };
-            this.Close();
-            newWin.Show();            
         }
     }
     public sealed class Tab
@@ -148,11 +141,34 @@ namespace OoTxMM_Track
         public string? RegionType { get; set; }
         public ObservableCollection<Check>? Checks { get; set; }
     }
-    public class Check
+    public class Check : ObservableObject
     {
         public string? CheckName { get; set; }
         public string? CheckType { get; set; }
-        public bool? IsChecked { get; set; } = false;
+        public bool? _isChecked;
+        public bool? IsChecked
+        {
+            get 
+            {
+                if (_isChecked == null)
+                {
+                    _isChecked = false;
+                }
+                return _isChecked; 
+            }
+            set 
+            { 
+                _isChecked = value;
+                OnPropertyChanged();
+            }
+        }
     }
-
+    public class ObservableObject : INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string? name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+    }
 }
