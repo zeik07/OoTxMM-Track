@@ -1,25 +1,24 @@
 ﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.IO;
-using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
+using OoTxMM_Track.Model;
 
 namespace OoTxMM_Track
 {
     public partial class MainWindow : Window
-    {       
+    {
+        public ObservableCollection<Tab>? Tabs { get; set; }
+        public bool ShowSkulls { get; set; } = true;
+        public bool ShowFairies { get; set; } = true;
+        public int TotalChecks { get; set; } = 0;
         public MainWindow()
         {            
             AddElement();
             DataContext = this;
             InitializeComponent();
         }
-        public ObservableCollection<Tab>? Tabs { get; set; }
-        public bool ShowSkulls { get; set; } = true;
-        public bool ShowFairies { get; set; } = true;
-        public int TotalChecks { get; set; } = 0;
         public void AddElement()
         {
             if (!File.Exists("SaveData.xml"))
@@ -27,7 +26,8 @@ namespace OoTxMM_Track
 #if(DEBUG)
                 Tabs = new ObservableCollection<Tab>();
                 XmlDocument gameData = new();
-                gameData.Load($@"{Directory.GetCurrentDirectory()}\ImportData.xml");
+                
+                gameData.Load($@"{Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName}\ImportData.xml");
 
                 if (gameData.DocumentElement != null)
                 {
@@ -125,50 +125,6 @@ namespace OoTxMM_Track
             {
                 File.Delete("SaveData.xml");
             }
-        }
-    }
-    public sealed class Tab
-    {
-        public string? TabName { get; set; }
-        public string? Content { get; set; }
-        public string? Index { get; set; } = "0";
-        public ObservableCollection<Region>? Regions { get; set; }
-    }
-
-    public class Region
-    {
-        public string? RegionName { get; set; }
-        public string? RegionType { get; set; }
-        public ObservableCollection<Check>? Checks { get; set; }
-    }
-    public class Check : ObservableObject
-    {
-        public string? CheckName { get; set; }
-        public string? CheckType { get; set; }
-        public bool? _isChecked;
-        public bool? IsChecked
-        {
-            get 
-            {
-                if (_isChecked == null)
-                {
-                    _isChecked = false;
-                }
-                return _isChecked; 
-            }
-            set 
-            { 
-                _isChecked = value;
-                OnPropertyChanged();
-            }
-        }
-    }
-    public class ObservableObject : INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler? PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string? name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }
 }
