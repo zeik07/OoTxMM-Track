@@ -35,7 +35,7 @@ Title="OoTxMM Tracker" Height="960" Width="1280">
                                         <ItemsControl ItemsSource="{Binding Path=Checks}">
                                             <ItemsControl.ItemTemplate>
                                                 <DataTemplate>
-                                                    <CheckBox Content="{Binding Path=CheckName}" Tag="{Binding Path=CheckType}" IsChecked="{Binding Path=IsChecked,Mode=TwoWay}" FontSize="12"/>
+                                                    <CheckBox Visibility="{Binding Path=IsVisible}" Content="{Binding Path=CheckName}" Tag="{Binding Path=CheckType}" IsChecked="{Binding Path=IsChecked,Mode=TwoWay}" FontSize="12" Click="Checkbox_Click"/>
                                                 </DataTemplate>
                                             </ItemsControl.ItemTemplate>
                                         </ItemsControl>

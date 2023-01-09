@@ -1,6 +1,8 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Windows;
+using System.Windows.Controls;
 using System.Xml;
 using System.Xml.Serialization;
 using OoTxMM_Track.Model;
@@ -27,7 +29,7 @@ namespace OoTxMM_Track
                 Tabs = new ObservableCollection<Tab>();
                 XmlDocument gameData = new();
                 
-                gameData.Load($@"{Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName}\ImportData.xml");
+                gameData.Load($@"{Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName}\ImportData.xml");
 
                 if (gameData.DocumentElement != null)
                 {
@@ -90,6 +92,110 @@ namespace OoTxMM_Track
                 {
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
                 }                
+            }
+        }
+        private void Checkbox_Click(object sender, RoutedEventArgs e)
+        {
+            CheckBox checkBox = (CheckBox)sender;            
+            if (checkBox.IsChecked == true && checkBox.Content != null && (String)checkBox.Content == "Hide Skulls")
+            {
+                if (Tabs != null)
+                {
+                    foreach (Tab tab in Tabs)
+                    {
+                        if (tab.Regions != null)
+                        {
+                            foreach (Region reg in tab.Regions)
+                            {
+                                if (reg.Checks != null)
+                                {
+                                    foreach (Check check in reg.Checks)
+                                    {
+                                        if (check.CheckType != null && (String)check.CheckType == "skull")
+                                        {
+                                            check.IsVisible = "Hidden";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if (checkBox.IsChecked == false && checkBox.Content != null && (String)checkBox.Content == "Hide Skulls")
+            {
+                if (Tabs != null)
+                {
+                    foreach (Tab tab in Tabs)
+                    {
+                        if (tab.Regions != null)
+                        {
+                            foreach (Region reg in tab.Regions)
+                            {
+                                if (reg.Checks != null)
+                                {
+                                    foreach (Check check in reg.Checks)
+                                    {
+                                        if (check.CheckType != null && (String)check.CheckType == "skull")
+                                        {
+                                            check.IsVisible = "Visible";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if (checkBox.IsChecked == true && checkBox.Content != null && (String)checkBox.Content == "Hide Fairies")
+            {
+                if (Tabs != null)
+                {
+                    foreach (Tab tab in Tabs)
+                    {
+                        if (tab.Regions != null)
+                        {
+                            foreach (Region reg in tab.Regions)
+                            {
+                                if (reg.Checks != null)
+                                {
+                                    foreach (Check check in reg.Checks)
+                                    {
+                                        if (check.CheckType != null && (String)check.CheckType == "fairy")
+                                        {
+                                            check.IsVisible = "Hidden";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if (checkBox.IsChecked == false && checkBox.Content != null && (String)checkBox.Content == "Hide Fairies")
+            {
+                if (Tabs != null)
+                {
+                    foreach (Tab tab in Tabs)
+                    {
+                        if (tab.Regions != null)
+                        {
+                            foreach (Region reg in tab.Regions)
+                            {
+                                if (reg.Checks != null)
+                                {
+                                    foreach (Check check in reg.Checks)
+                                    {
+                                        if (check.CheckType != null && (String)check.CheckType == "fairy")
+                                        {
+                                            check.IsVisible = "Visible";
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         private void Save_Click(object sender, RoutedEventArgs e)

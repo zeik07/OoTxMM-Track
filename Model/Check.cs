@@ -21,5 +21,22 @@
                 OnPropertyChanged();
             }
         }
+        public string? _isVisible;
+        public string? IsVisible
+        {
+            get
+            {
+                if (_isVisible == null)
+                {
+                    _isVisible = "Visible";
+                }
+                return _isVisible;
+            }
+            set
+            {
+                _isVisible = value;
+                OnPropertyChanged();
+            }
+        }
     }
 }

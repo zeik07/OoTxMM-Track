@@ -851,8 +851,8 @@
 	</tab>
 	<tab name="Settings">
 		<region name="Tracker">
-			<setting name="off">Skulls</setting>
-			<setting name="off">Fairies</setting>
+			<setting>Hide Skulls</setting>
+			<setting>Hide Fairies</setting>
 		</region>
 	</tab>
 </root>
