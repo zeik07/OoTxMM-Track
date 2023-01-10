@@ -549,7 +549,6 @@
 			<item>Woods of Mystery Grotto – Day 2</item>
 			<item>Potion Shop – Talk to Kotake after seeing Koume hurt</item>
 			<item>Southern Swamp Grotto</item>
-			<item>Swamp Spider House Mask of Truth</item>
 			<item>Song of Soaring</item>
 			<item>Deku Palace Bean Grotto Chest</item>
 			<item>Deku Palace Heart Piece</item>
@@ -561,6 +560,7 @@
 			<item>Woodfall Temple Great Fairy</item>
 		</region>
 		<region name="Swamp Spider House">
+			<item>Swamp Spider House Mask of Truth</item>
 			<skull>Main Room 1F Skulltula</skull>
 			<skull>Main Room 1F 2 Skulltula</skull>
 			<skull>Main Room 1F 3 Skulltula</skull>
@@ -622,9 +622,7 @@
 		</region>
 		<region name="Ocean">
 			<item>Great Bay Coast Zora Mask</item>
-			<item>Great Bay Coast Fisherman Grotto</item>
-			<item>Ocean Spider House Chest Heart Piece</item>
-			<item>Ocean Spider House All Tokens</item>
+			<item>Great Bay Coast Fisherman Grotto</item>			
 			<item>Fisherman Minigame – Clean Ocean</item>
 			<item>Great Bay Coast Ledge</item>
 			<item>Laboratory Zora Song</item>
@@ -646,6 +644,8 @@
 			<item>Pinnacle Rock Heart Piece</item>
 		</region>
 		<region name="Ocean Spider House">
+			<item>Ocean Spider House Chest Heart Piece</item>
+			<item>Ocean Spider House All Tokens</item>
 			<skull>Slope Left Skulltula</skull>
 			<skull>Slope Right Skulltula</skull>
 			<skull>Behind Web Skulltula</skull>
