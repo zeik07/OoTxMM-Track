@@ -71,9 +71,13 @@ namespace OoTxMM_Track
                 }
                 XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
 
-                using StreamWriter sr = new StreamWriter("GameData.xml");
+                using StreamWriter sr = new StreamWriter($"{Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName}\\GameData.xml");
                 using var xw = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t" });
-                xs.Serialize(xw, Tabs);
+                xs.Serialize(xw, Tabs);                
+                
+                using StreamWriter sr2 = new StreamWriter("GameData.xml");
+                using var xw2 = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t" });
+                xs.Serialize(xw2, Tabs);
 #endif
 #if (!DEBUG)
                 XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
@@ -83,7 +87,7 @@ namespace OoTxMM_Track
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
                 }
 #endif
-            }
+        }
             else
             {
                 XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
