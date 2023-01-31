@@ -33,8 +33,9 @@ namespace OoTxMM_Track
                 imp.Import(Tabs);
 #endif
 #if (!DEBUG)
-                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
-                Stream s = new FileStream("GameData.xml", FileMode.Open);
+                XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
+
+                Stream s = File.OpenRead("GameData.xml");
                 if (s != null && xs != null)
                 {
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
