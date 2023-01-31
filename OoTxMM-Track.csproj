@@ -6,6 +6,10 @@
     <RootNamespace>OoTxMM_Track</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+	<SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+	<ApplicationManifest>OoTxMM-Track.exe.manifest</ApplicationManifest>
+	<Platforms>AnyCPU;x64;x86</Platforms>
+	<Configurations>Debug;Release</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

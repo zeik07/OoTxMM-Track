@@ -7,7 +7,7 @@
 			<item>Mido's Chest 2</item>
 			<item>Mido's Chest 3</item>
 			<item>Mido's Chest 4</item>
-			<item>Storms Grotto</item>
+			<item>Storms Grotto Chest</item>
 			<skull>Kokiri Soil Skulltula</skull>
 			<skull>Know It All House Skulltula</skull>
 			<skull>House of Twins Roof Skulltula</skull>
@@ -234,7 +234,7 @@
 			<item>Compass Room Side Chest</item>
 			<item>Slingshot Chest</item>
 			<item>Slingshot Side Chest</item>
-			<item>Basement</item>
+			<item>Basement Chest</item>
 			<item>Gohma Heart Container</item>
 			<item>Kokiri Emerald</item>
 			<skull>Deku Tree Compass Skulltula</skull>
@@ -465,6 +465,7 @@
 			<item>Deku Playground All Days</item>
 		</region>
 		<region name="South Clock Town">
+			<item>Song of Healing</item>
 			<item>Platform Heart Piece</item>
 			<item>Skull Kid Song of Time</item>
 			<item>Skull Kid Ocarina</item>
@@ -761,7 +762,7 @@
 			<fairy>Bridge Beehive Stray Fairy</fairy>
 			<fairy>Dark Room Boes Stray Fairy</fairy>
 			<fairy>Main Room Bubble Stray Fairy</fairy>
-			<fairy>Main Room Switch Chest Stray Fairy</fairy>
+			<item>Main Room Switch Chest Stray Fairy</item>
 			<fairy>Bubble under Bridge Stray Fairy</fairy>
 			<fairy>Final Room Right Bubble Stray Fairy</fairy>
 			<fairy>Final Room Right Upper Bubble Stray Fairy</fairy>
@@ -785,7 +786,7 @@
 			<fairy>Ice Room Fake Wall Stray Fairy</fairy>
 			<fairy>Fake Ceiling Bubble Stray Fairy</fairy>
 			<fairy>Ledge in Map Room Stray Fairy</fairy>
-			<fairy>Chest in Basement Stray Fairy</fairy>
+			<item>Chest in Basement Stray Fairy</item>
 			<fairy>Ice Switch Puzzle Stray Fairy</fairy>
 			<fairy>Push Double Blocks Stray Fairy</fairy>
 			<fairy>Kill Freezards in Pillar Room Stray Fairy</fairy>
@@ -811,10 +812,10 @@
 			<fairy>Bio Baba Hallway Stray Fairy</fairy>
 			<fairy>Pot by Dexihands Stray Fairy</fairy>
 			<fairy>Green Room Ceiling Stray Fairy</fairy>
-			<fairy>Waterwheel Lower Chest Stray Fairy</fairy>
-			<fairy>Waterwheel Upper Chest Stray Fairy</fairy>
+			<item>Waterwheel Lower Chest Stray Fairy</item>
+			<item>Waterwheel Upper Chest Stray Fairy</item>
 			<fairy>Seesaw Barrel Stray Fairy</fairy>
-			<fairy>Seesaw Chest Stray Fairy</fairy>
+			<item>Seesaw Chest Stray Fairy</item>
 			<fairy>By Boss Exit Fairy Stray Fairy</fairy>
 			<fairy>Boss Room Bubble Stray Fairy</fairy>
 		</region>
@@ -825,13 +826,13 @@
 			<item>Compass Chest</item>
 			<item>Light Arrows</item>
 			<fairy>Entrance Eye Switch Stray Fairy</fairy>
-			<fairy>Basement Fairy Stray Fairy</fairy>
+			<fairy>Basement Stray Fairy</fairy>
 			<fairy>Sun in Mirror Room Stray Fairy</fairy>
 			<fairy>Mirror Room Sun Block Stray Fairy</fairy>
 			<fairy>Lava Room Fire Ring Stray Fairy</fairy>
-			<fairy>Lava Room Chest Stray Fairy</fairy>
+			<item>Lava Room Chest Stray Fairy</item>
 			<fairy>Eyegore Stray Fairy</fairy>
-			<fairy>Underwater Chest Stray Fairy</fairy>
+			<item>Underwater Chest Stray Fairy</item>
 			<fairy>Inverted Death Armos Stray Fairy</fairy>
 			<fairy>Bridge Room Switch Stray Fairy</fairy>
 			<fairy>Pre Boss Crystal Switch Stray Fairy</fairy>

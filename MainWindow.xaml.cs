@@ -11,10 +11,8 @@ namespace OoTxMM_Track
 {
     public partial class MainWindow : Window
     {
+        private readonly string DirPath = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\\OoTxMM-Track\\";
         public ObservableCollection<Tab>? Tabs { get; set; }
-        public bool ShowSkulls { get; set; } = true;
-        public bool ShowFairies { get; set; } = true;
-        public int TotalChecks { get; set; } = 0;
         public MainWindow()
         {            
             AddElement();
@@ -23,61 +21,16 @@ namespace OoTxMM_Track
         }
         public void AddElement()
         {
-            if (!File.Exists("SaveData.xml"))
+            Tabs = new();
+            if (!Directory.Exists(DirPath))
+            {
+                Directory.CreateDirectory(DirPath);
+            }
+            if (!File.Exists($"{DirPath}SaveData.xml"))
             {
 #if(DEBUG)
-                Tabs = new ObservableCollection<Tab>();
-                XmlDocument gameData = new();
-                
-                gameData.Load($@"{Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName}\ImportData.xml");
-
-                if (gameData.DocumentElement != null)
-                {
-                    foreach (XmlNode tab in gameData.DocumentElement.ChildNodes)
-                    {
-                        ObservableCollection<Region> regionsList = new();
-                        foreach (XmlNode region in tab.ChildNodes)
-                        {
-                            ObservableCollection<Check> checksList = new();
-                            foreach (XmlNode check in region.ChildNodes)
-                            {                                
-                                if (check.Attributes?["name"]?.InnerText == "off")
-                                {
-                                    continue;
-                                }
-                                checksList.Add(new Check { CheckName = check.InnerText, CheckType=check.Name });
-                                if (tab.Attributes?["name"]?.InnerText != "Settings")
-                                {
-                                    TotalChecks += 1;
-                                }
-                            }
-                            string? rt = region.Attributes?["type"]?.InnerText;
-                            if (rt == null)
-                            {
-                                rt = "overworld";
-                                if (tab.Attributes?["name"]?.InnerText == "Settings")
-                                {
-                                    rt = "settings";
-                                }
-                            }
-                            regionsList.Add(new Region { RegionName = region.Attributes?["name"]?.InnerText, RegionType = rt, Checks = checksList });
-                        }
-                        Tabs.Add(new Tab { TabName = tab.Attributes?["name"]?.InnerText, Index = "0", Regions = regionsList });
-                    }
-                }
-                foreach (Tab t in Tabs)
-                {
-                    t.Content = $"Total Checks: {TotalChecks}";
-                }
-                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
-
-                using StreamWriter sr = new StreamWriter($"{Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName}\\GameData.xml");
-                using var xw = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t" });
-                xs.Serialize(xw, Tabs);                
-                
-                using StreamWriter sr2 = new StreamWriter("GameData.xml");
-                using var xw2 = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t" });
-                xs.Serialize(xw2, Tabs);
+                ImportData imp = new();
+                imp.Import(Tabs);
 #endif
 #if (!DEBUG)
                 XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
@@ -90,8 +43,8 @@ namespace OoTxMM_Track
         }
             else
             {
-                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
-                Stream s = new FileStream("SaveData.xml", FileMode.Open);
+                XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
+                Stream s = new FileStream($"{DirPath}SaveData.xml", FileMode.Open);
                 if (s != null && xs != null)
                 {
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
@@ -117,7 +70,7 @@ namespace OoTxMM_Track
                                     {
                                         if (check.CheckType != null && (String)check.CheckType == "skull")
                                         {
-                                            check.IsVisible = "Hidden";
+                                            check.IsVisible = "Collapsed";
                                         }
                                     }
                                 }
@@ -167,7 +120,7 @@ namespace OoTxMM_Track
                                     {
                                         if (check.CheckType != null && (String)check.CheckType == "fairy")
                                         {
-                                            check.IsVisible = "Hidden";
+                                            check.IsVisible = "Collapsed";
                                         }
                                     }
                                 }
@@ -204,9 +157,8 @@ namespace OoTxMM_Track
         }
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<Tab>));
-
-            using StreamWriter sr = new StreamWriter("SaveData.xml");
+            XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
+            using StreamWriter sr = new($"{DirPath}SaveData.xml");
             using var xw = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t"});
             xs.Serialize(xw, Tabs);
         }
@@ -231,9 +183,9 @@ namespace OoTxMM_Track
                     }
                 }
             }
-            if (File.Exists("SaveData.xml"))
+            if (File.Exists($"{DirPath}SaveData.xml"))
             {
-                File.Delete("SaveData.xml");
+                File.Delete($"{DirPath}SaveData.xml");
             }
         }
     }

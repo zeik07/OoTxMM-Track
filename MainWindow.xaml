@@ -22,8 +22,8 @@ Title="OoTxMM Tracker" Height="960" Width="1280" Padding="5">
                             <RowDefinition/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
-                        <ScrollViewer Padding="2">
-                            <TabControl Padding="5" SelectedIndex="{Binding Path=Index}" Grid.Row="0" ItemsSource="{Binding Path=Regions}" TabStripPlacement="Left" Tag="{Binding Path=RegionType}">
+                        <ScrollViewer>
+                            <TabControl Padding="5" SelectedIndex="{Binding Path=Index}" Grid.Row="0" ItemsSource="{Binding Path=Regions}" TabStripPlacement="Left" >
                                 <TabControl.ItemTemplate>
                                     <DataTemplate>
                                         <TextBlock Width="169" Text="{Binding Path=RegionName}" />
@@ -37,13 +37,13 @@ Title="OoTxMM Tracker" Height="960" Width="1280" Padding="5">
                                                     <StackPanel>
                                                         <CheckBox Visibility="{Binding Path=IsVisible}" Content="{Binding Path=CheckName}" Tag="{Binding Path=CheckType}" IsChecked="{Binding Path=IsChecked,Mode=TwoWay}" Click="Checkbox_Click"/>
                                                     </StackPanel>
-                                                    </DataTemplate>
+                                                </DataTemplate>
                                             </ItemsControl.ItemTemplate>
                                         </ItemsControl>
                                     </DataTemplate>
                                 </TabControl.ContentTemplate>
                             </TabControl>
-                        </ScrollViewer>
+                        </ScrollViewer>                        
                         <StackPanel Grid.Row="1" Orientation="Horizontal">
                             <Button Width="100" x:Name="Save" Content="Save" Click="Save_Click"></Button>
                             <Button Width="100" x:Name="Reset" Content="Reset" Click="Reset_Click"></Button>
