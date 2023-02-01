@@ -1,0 +1,2 @@
+﻿===To Install===
+Run the setup.exe, this will download/install any prerequisites directly from Microsoft then proceed to install OoTxMM-Track after the prereqs are installed.
