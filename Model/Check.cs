@@ -9,10 +9,7 @@
         {
             get
             {
-                if (_isChecked == null)
-                {
-                    _isChecked = false;
-                }
+                _isChecked ??= false;
                 return _isChecked;
             }
             set
@@ -26,10 +23,7 @@
         {
             get
             {
-                if (_isVisible == null)
-                {
-                    _isVisible = "Visible";
-                }
+                _isVisible ??= "Visible";
                 return _isVisible;
             }
             set

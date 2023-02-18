@@ -2,7 +2,7 @@
 <ArrayOfTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Tab>
 		<TabName>Ocarina of Time</TabName>
-		<Content>Total Checks: 723</Content>
+		<Content>Total Checks: 727</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>
@@ -1715,6 +1715,13 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Floormaster Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Boss Key Chest</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
@@ -1723,6 +1730,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Red Poe</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bow Chest</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -2827,6 +2841,20 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Spirit Trial Crystal Switch Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Spirit Trial Invisible Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Light Trial Left Chest 1</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
@@ -2894,7 +2922,7 @@
 	</Tab>
 	<Tab>
 		<TabName>Majora's Mask</TabName>
-		<Content>Total Checks: 723</Content>
+		<Content>Total Checks: 727</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>
@@ -3901,7 +3929,7 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
-						<CheckName>Path to Snowhead Grotto – Spring</CheckName>
+						<CheckName>Mountain Village Grotto – Spring</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -4004,7 +4032,7 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
-						<CheckName>Laboratory Fish eart PieceP</CheckName>
+						<CheckName>Laboratory Fish Heart Piece</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -5425,7 +5453,7 @@
 	</Tab>
 	<Tab>
 		<TabName>Settings</TabName>
-		<Content>Total Checks: 723</Content>
+		<Content>Total Checks: 727</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>

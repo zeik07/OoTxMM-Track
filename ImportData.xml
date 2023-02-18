@@ -275,8 +275,10 @@
 			<item>Map Chest</item>
 			<item>Outside Hookshot Chest</item>
 			<item>Block Push Chest</item>
+			<item>Floormaster Chest</item>
 			<item>Boss Key Chest</item>
 			<item>Red Poe</item>
+			<item>Bow Chest</item>
 			<item>Blue Poe</item>
 			<item>Falling Ceiling Chest</item>
 			<item>Basement</item>
@@ -443,6 +445,8 @@
 			<item>Water Trial Right</item>
 			<item>Shadow Trial First Chest</item>
 			<item>Shadow Trial Second Chest</item>
+			<item>Spirit Trial Crystal Switch Chest</item>
+			<item>Spirit Trial Invisible Chest</item>
 			<item>Light Trial Left Chest 1</item>
 			<item>Light Trial Left Chest 2</item>
 			<item>Light Trial Left Chest 3</item>
@@ -610,7 +614,7 @@
 			<item>Road to Temple Grotto</item>
 			<item>Road to Temple Island Heart Piece</item>
 			<item>Snowhead Great Fairy</item>
-			<item>Path to Snowhead Grotto – Spring</item>
+			<item>Mountain Village Grotto – Spring</item>
 			<item>Twin Islands Underwater Chest 1 – Spring</item>
 			<item>Twin Islands Underwater Chest 2 – Spring</item>
 		</region>
@@ -627,7 +631,7 @@
 			<item>Fisherman Minigame – Clean Ocean</item>
 			<item>Great Bay Coast Ledge</item>
 			<item>Laboratory Zora Song</item>
-			<item>Laboratory Fish eart PieceP</item>
+			<item>Laboratory Fish Heart Piece</item>
 			<item>Zora Hall Evan    &#x2B9E;&#x2B9E;&#x2B9F;A    A&#x2B9F;&#x2B9E;A    &#x2B9C;&#x2B9C;&#x2B9E;&#x2B9F;    &#x2B9F;&#x2B9E;&#x2B9C;&#x2B9F;</item>
 			<item>Zora Hall Scrub Heart Piece</item>
 			<item>Zora Hall Scrub Deed</item>
