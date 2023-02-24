@@ -72,7 +72,7 @@ namespace OoTxMM_Track
             {
                 var regionName = ((Region)((ContentPresenter)parentElement).Content).RegionName;
 
-                if (regionName == "Excluded Checks" && checkBox.IsChecked == true)
+                if (regionName == "Excluded Checks")
                 {
                     var tabName = tabNames?.FirstOrDefault(tab => tab.Regions!.Any(region => region.RegionName == (string)checkBox.Tag));
                     var regName = tabName?.Regions?.FirstOrDefault(region => region.RegionName == (string)checkBox.Tag);
@@ -82,22 +82,15 @@ namespace OoTxMM_Track
                         {
                             if (check.CheckName == (string)checkBox.Content)
                             {
-                                check.IsVisible = "Collapsed";
-                            }
-                        }
-                    }
-                }
-                else if (regionName == "Excluded Checks" && checkBox.IsChecked == false)
-                {
-                    var tabName = tabNames?.FirstOrDefault(tab => tab.Regions!.Any(region => region.RegionName == (string)checkBox.Tag));
-                    var regName = tabName?.Regions?.FirstOrDefault(region => region.RegionName == (string)checkBox.Tag);
-                    if (regName != null && regName.Checks != null)
-                    {
-                        foreach (Check check in regName.Checks)
-                        {
-                            if (check.CheckName == (string)checkBox.Content)
-                            {
-                                check.IsVisible = "Visible";
+                                if (checkBox.IsChecked == true)
+                                {
+                                    check.IsVisible = "Collapsed";
+                                }
+                                else
+                                {
+                                    check.IsVisible = "Visible";
+                                }
+                                
                             }
                         }
                     }
