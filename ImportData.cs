@@ -3,16 +3,17 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
+using System;
+using System.Windows.Media.Animation;
 
 namespace OoTxMM_Track
 {
     internal class ImportData
     {
         public int TotalChecks { get; set; } = 0;
-        public void Import(ObservableCollection<Tab> Tabs)
+        public void Import(ObservableCollection<Tab> Tabs, ObservableCollection<DisableChecks> DisableChecks)
         {
             XmlDocument gameData = new();
-
             gameData.Load($@"{Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName}\ImportData.xml");
 
             if (gameData.DocumentElement != null)
@@ -29,9 +30,10 @@ namespace OoTxMM_Track
                             {
                                 continue;
                             }
-                            checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name });
+                            checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name });                            
                             if (tab.Attributes?["name"]?.InnerText != "Settings")
                             {
+                                DisableChecks.Add(new DisableChecks { CheckName = check.InnerText, CheckTag = region.Attributes?["name"]?.InnerText });
                                 TotalChecks += 1;
                             }
                         }
@@ -42,6 +44,13 @@ namespace OoTxMM_Track
                             if (tab.Attributes?["name"]?.InnerText == "Settings")
                             {
                                 rt = "settings";
+                                if (region.Attributes?["name"]?.InnerText == "Excluded Checks")
+                                {
+                                    foreach (var dCheck in DisableChecks)
+                                    {
+                                        checksList.Add(new Check { CheckName = dCheck.CheckName, CheckType = dCheck.CheckTag });
+                                    }
+                                }
                             }
                         }
                         regionsList.Add(new Region { RegionName = region.Attributes?["name"]?.InnerText, RegionType = rt, Checks = checksList });

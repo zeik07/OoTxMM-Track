@@ -859,5 +859,6 @@
 			<setting>Hide Skulls</setting>
 			<setting>Hide Fairies</setting>
 		</region>
+		<region name="Excluded Checks" />
 	</tab>
 </root>

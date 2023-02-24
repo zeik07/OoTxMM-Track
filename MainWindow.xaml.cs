@@ -1,10 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using System.Xml;
 using System.Xml.Serialization;
+using ModernWpf;
 using OoTxMM_Track.Model;
 
 namespace OoTxMM_Track
@@ -13,6 +18,7 @@ namespace OoTxMM_Track
     {
         private readonly string DirPath = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}\\OoTxMM-Track\\";
         public ObservableCollection<Tab>? Tabs { get; set; }
+        public ObservableCollection<DisableChecks>? DisableChecks { get; set; }
         public MainWindow()
         {            
             AddElement();
@@ -22,6 +28,7 @@ namespace OoTxMM_Track
         public void AddElement()
         {
             Tabs = new();
+            DisableChecks = new();
             if (!Directory.Exists(DirPath))
             {
                 Directory.CreateDirectory(DirPath);
@@ -30,7 +37,7 @@ namespace OoTxMM_Track
             {
 #if(DEBUG)
                 ImportData imp = new();
-                imp.Import(Tabs);
+                imp.Import(Tabs, DisableChecks);
 #endif
 #if (!DEBUG)
                 XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
@@ -54,7 +61,50 @@ namespace OoTxMM_Track
         }
         private void Checkbox_Click(object sender, RoutedEventArgs e)
         {
-            CheckBox checkBox = (CheckBox)sender;            
+            CheckBox checkBox = (CheckBox)sender;
+            UIElement? parentElement = checkBox.Parent as UIElement;
+            for (int i = 1; i <= 6; i++)
+            {
+                parentElement = VisualTreeHelper.GetParent(parentElement) as UIElement;
+            }
+            if(parentElement != null && ((ContentPresenter)parentElement).Content != null)
+            {
+                var regionName = ((Region)((ContentPresenter)parentElement).Content).RegionName;
+
+                var tabNames = Tabs;
+
+                if (regionName == "Excluded Checks" && checkBox.IsChecked == true)
+                {
+                    var tabName = tabNames?.FirstOrDefault(tab => tab.Regions!.Any(region => region.RegionName == (string)checkBox.Tag));
+                    var regName = tabName?.Regions?.FirstOrDefault(region => region.RegionName == (string)checkBox.Tag);
+                    if (regName != null && regName.Checks != null)
+                    {
+                        foreach (Check check in regName.Checks)
+                        {
+                            if (check.CheckName == (string)checkBox.Content)
+                            {
+                                check.IsVisible = "Collapsed";
+                            }
+                        }
+                    }
+                }
+                else if (regionName == "Excluded Checks" && checkBox.IsChecked == false)
+                {
+                    var tabName = tabNames?.FirstOrDefault(tab => tab.Regions!.Any(region => region.RegionName == (string)checkBox.Tag));
+                    var regName = tabName?.Regions?.FirstOrDefault(region => region.RegionName == (string)checkBox.Tag);
+                    if (regName != null && regName.Checks != null)
+                    {
+                        foreach (Check check in regName.Checks)
+                        {
+                            if (check.CheckName == (string)checkBox.Content)
+                            {
+                                check.IsVisible = "Visible";
+                            }
+                        }
+                    }
+                }
+            }
+
             if (checkBox.IsChecked == true && checkBox.Content != null && (String)checkBox.Content == "Hide Skulls")
             {
                 if (Tabs != null)
