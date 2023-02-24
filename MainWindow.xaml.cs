@@ -20,7 +20,7 @@ namespace OoTxMM_Track
         public ObservableCollection<Tab>? Tabs { get; set; }
         public ObservableCollection<DisableChecks>? DisableChecks { get; set; }
         public MainWindow()
-        {            
+        {
             AddElement();
             DataContext = this;
             InitializeComponent();
@@ -48,7 +48,7 @@ namespace OoTxMM_Track
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
                 }
 #endif
-        }
+            }
             else
             {
                 XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
@@ -56,22 +56,21 @@ namespace OoTxMM_Track
                 if (s != null && xs != null)
                 {
                     Tabs = (ObservableCollection<Tab>?)xs.Deserialize(s);
-                }                
+                }
             }
         }
         private void Checkbox_Click(object sender, RoutedEventArgs e)
         {
             CheckBox checkBox = (CheckBox)sender;
             UIElement? parentElement = checkBox.Parent as UIElement;
+            var tabNames = Tabs;
             for (int i = 1; i <= 6; i++)
             {
                 parentElement = VisualTreeHelper.GetParent(parentElement) as UIElement;
             }
-            if(parentElement != null && ((ContentPresenter)parentElement).Content != null)
+            if (parentElement != null && ((ContentPresenter)parentElement).Content != null)
             {
                 var regionName = ((Region)((ContentPresenter)parentElement).Content).RegionName;
-
-                var tabNames = Tabs;
 
                 if (regionName == "Excluded Checks" && checkBox.IsChecked == true)
                 {
@@ -105,100 +104,46 @@ namespace OoTxMM_Track
                 }
             }
 
-            if (checkBox.IsChecked == true && checkBox.Content != null && (String)checkBox.Content == "Hide Skulls")
+            if (checkBox.Content != null && (String)checkBox.Content == "Hide Skulls" && Tabs != null)
             {
-                if (Tabs != null)
+                foreach (Tab tab in Tabs)
                 {
-                    foreach (Tab tab in Tabs)
+                    foreach (Region reg in tab.Regions!)
                     {
-                        if (tab.Regions != null)
+                        foreach (Check check in reg.Checks!)
                         {
-                            foreach (Region reg in tab.Regions)
+                            if (check.CheckType != null && (String)check.CheckType == "skull")
                             {
-                                if (reg.Checks != null)
+                                if (checkBox.IsChecked == true)
                                 {
-                                    foreach (Check check in reg.Checks)
-                                    {
-                                        if (check.CheckType != null && (String)check.CheckType == "skull")
-                                        {
-                                            check.IsVisible = "Collapsed";
-                                        }
-                                    }
+                                    check.IsVisible = "Collapsed";
+                                }
+                                else
+                                {
+                                    check.IsVisible = "Visible";
                                 }
                             }
                         }
                     }
                 }
             }
-            if (checkBox.IsChecked == false && checkBox.Content != null && (String)checkBox.Content == "Hide Skulls")
+            if (checkBox.Content != null && (String)checkBox.Content == "Hide Fairies" && Tabs != null)
             {
-                if (Tabs != null)
+                foreach (Tab tab in Tabs)
                 {
-                    foreach (Tab tab in Tabs)
+                    foreach (Region reg in tab.Regions!)
                     {
-                        if (tab.Regions != null)
+                        foreach (Check check in reg.Checks!)
                         {
-                            foreach (Region reg in tab.Regions)
+                            if (check.CheckType != null && (String)check.CheckType == "fairy")
                             {
-                                if (reg.Checks != null)
+                                if (checkBox.IsChecked == true)
                                 {
-                                    foreach (Check check in reg.Checks)
-                                    {
-                                        if (check.CheckType != null && (String)check.CheckType == "skull")
-                                        {
-                                            check.IsVisible = "Visible";
-                                        }
-                                    }
+                                    check.IsVisible = "Collapsed";
                                 }
-                            }
-                        }
-                    }
-                }
-            }
-            if (checkBox.IsChecked == true && checkBox.Content != null && (String)checkBox.Content == "Hide Fairies")
-            {
-                if (Tabs != null)
-                {
-                    foreach (Tab tab in Tabs)
-                    {
-                        if (tab.Regions != null)
-                        {
-                            foreach (Region reg in tab.Regions)
-                            {
-                                if (reg.Checks != null)
+                                else
                                 {
-                                    foreach (Check check in reg.Checks)
-                                    {
-                                        if (check.CheckType != null && (String)check.CheckType == "fairy")
-                                        {
-                                            check.IsVisible = "Collapsed";
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (checkBox.IsChecked == false && checkBox.Content != null && (String)checkBox.Content == "Hide Fairies")
-            {
-                if (Tabs != null)
-                {
-                    foreach (Tab tab in Tabs)
-                    {
-                        if (tab.Regions != null)
-                        {
-                            foreach (Region reg in tab.Regions)
-                            {
-                                if (reg.Checks != null)
-                                {
-                                    foreach (Check check in reg.Checks)
-                                    {
-                                        if (check.CheckType != null && (String)check.CheckType == "fairy")
-                                        {
-                                            check.IsVisible = "Visible";
-                                        }
-                                    }
+                                    check.IsVisible = "Visible";
                                 }
                             }
                         }
@@ -210,7 +155,7 @@ namespace OoTxMM_Track
         {
             XmlSerializer xs = new(typeof(ObservableCollection<Tab>));
             using StreamWriter sr = new($"{DirPath}SaveData.xml");
-            using var xw = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t"});
+            using var xw = XmlWriter.Create(sr, new XmlWriterSettings { Indent = true, IndentChars = "\t" });
             xs.Serialize(xw, Tabs);
         }
         private void Reset_Click(object sender, RoutedEventArgs e)
