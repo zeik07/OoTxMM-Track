@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xsd:element name="ArrayOfTab">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" name="Tab">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="TabName" type="xsd:string" />
+							<xsd:element name="Content" type="xsd:string" />
+							<xsd:element name="Index" type="xsd:unsignedByte" />
+							<xsd:element name="Regions">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element maxOccurs="unbounded" name="Region">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="RegionName" type="xsd:string" />
+													<xsd:element name="RegionType" type="xsd:string" />
+													<xsd:element name="Checks">
+														<xsd:complexType>
+															<xsd:sequence>
+																<xsd:element maxOccurs="unbounded" name="Check">
+																	<xsd:complexType>
+																		<xsd:sequence>
+																			<xsd:element name="_isChecked" nillable="true" />
+																			<xsd:element name="CheckName" type="xsd:string" />
+																			<xsd:element name="CheckType" type="xsd:string" />
+																			<xsd:element name="IsChecked" type="xsd:boolean" />
+																			<xsd:element name="IsVisible" type="xsd:string" />
+																		</xsd:sequence>
+																	</xsd:complexType>
+																</xsd:element>
+															</xsd:sequence>
+														</xsd:complexType>
+													</xsd:element>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xs:schema>
