@@ -66,7 +66,7 @@ namespace OoTxMM_Track
             var tabNames = Tabs;
             for (int i = 1; i <= 6; i++)
             {
-                parentElement = VisualTreeHelper.GetParent(parentElement) as UIElement;
+                parentElement = VisualTreeHelper.GetParent(parentElement) as UIElement;          
             }
             if (parentElement != null && ((ContentPresenter)parentElement).Content != null)
             {
@@ -97,7 +97,7 @@ namespace OoTxMM_Track
                 }
             }
 
-            if (checkBox.Content != null && (String)checkBox.Content == "Hide Skulls" && Tabs != null)
+            if (checkBox.Content != null && Tabs != null && checkBox.Content.ToString().Contains("Hide"))
             {
                 foreach (Tab tab in Tabs)
                 {
@@ -105,30 +105,7 @@ namespace OoTxMM_Track
                     {
                         foreach (Check check in reg.Checks!)
                         {
-                            if (check.CheckType != null && (String)check.CheckType == "skull")
-                            {
-                                if (checkBox.IsChecked == true)
-                                {
-                                    check.IsVisible = "Collapsed";
-                                }
-                                else
-                                {
-                                    check.IsVisible = "Visible";
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            if (checkBox.Content != null && (String)checkBox.Content == "Hide Fairies" && Tabs != null)
-            {
-                foreach (Tab tab in Tabs)
-                {
-                    foreach (Region reg in tab.Regions!)
-                    {
-                        foreach (Check check in reg.Checks!)
-                        {
-                            if (check.CheckType != null && (String)check.CheckType == "fairy")
+                            if (check.CheckType != null && (String)check.CheckType == checkBox.Content.ToString().Substring(5, checkBox.Content.ToString().Length - 5).ToLower())
                             {
                                 if (checkBox.IsChecked == true)
                                 {

@@ -2,7 +2,7 @@
 <ArrayOfTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Tab>
 		<TabName>Ocarina of Time</TabName>
-		<Content>Total Checks: 727</Content>
+		<Content>Total Checks: 808</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>
@@ -54,21 +54,84 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Kokiri Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Know It All House Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>House of Twins Roof Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Link's House Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -158,21 +221,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Near Bridge Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Near Deku Theater Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Above Deku Theater Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -206,7 +269,7 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>SFM Night Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -268,14 +331,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Near Kakariko Grotto Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Near Gerudo Valley Grotto Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Hyrule Field Cow Grotto Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -309,28 +379,56 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ranch Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ranch House Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Rain Shed Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Near Tower Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Stables Left Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Stables Right Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Ranch Tower Left Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Ranch Tower Right Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -384,8 +482,176 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Guard Shack Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -460,14 +726,14 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Castle Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Castle Storms Grotto Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -487,7 +753,7 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Outside Ganon's Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -618,43 +884,162 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Guard Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Tower Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Construction Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Skulltula House Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Impa's Roof Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Impa's House Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -723,14 +1108,14 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Graveyard Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Graveyard Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -792,28 +1177,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Trail Bombable Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Trail Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Trail Above Dodongo's Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Trail Path to Crater Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Death Mountain Cow Grotto Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -881,15 +1273,71 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Goron City Boulder Maze Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Goron City Center Platform Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -937,14 +1385,14 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Crater Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Crater Crate Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -999,28 +1447,28 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora River Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora River Ladder Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora River Near Grotto Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora River Near Bridge Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1060,8 +1508,64 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Top Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Top Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Bottom Left</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Bottom Right</CheckName>
+						<CheckType>shops</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Zora Domain Frozen Waterfall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1095,21 +1599,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora Fountain Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora Fountain Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Zora Fountain Hidden Cave Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1171,35 +1675,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lake Hylia Lab Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lake Hylia Small Island Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lake Hylia Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lake Hylia Big Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Laboratory Dive Crate Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1240,28 +1744,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Valley Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Valley Small Waterfall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Valley Near Tent Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Valley Pillar Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Near Gerudo Fortress Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1330,14 +1841,14 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Fortress Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Fortress Archery Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1357,7 +1868,7 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Haunted Wasteland Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1391,21 +1902,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Desert Colossus Soil Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Desert Colossus Tree Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Desert Colossus Plateau Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1474,28 +1985,28 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Deku Tree Compass Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Deku Tree Basement Vines Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Deku Tree Basement Gate Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Deku Tree Basement Back Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1564,35 +2075,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dodongo’s Cavern East Side Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dodongo’s Cavern Scarecrow Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dodongo’s Cavern Alcove Above Stairs Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dodongo’s Cavern Vines Above Stairs Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dodongo’s Cavern Back Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1640,28 +2151,28 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Jabu Jabu Lobby Basement Lower Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Jabu Jabu Lobby Basement Upper Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Jabu Jabu Water Switch Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Jabu Jabu Near Boss Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1779,35 +2290,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Forest Temple First Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Forest Temple Outdoor West Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Forest Temple Lobby Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Forest Temple Outdoor East Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Forest Temple Basement Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -1932,35 +2443,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fire Temple Song of Time Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fire Temple Boulder Maze Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fire Temple Scarecrow 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fire Temple Scarecrow 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fire Temple Basement Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2057,35 +2568,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Water Temple Waterfalls Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Water Temple Cage Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Water Temple Center Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Water Temple Large Pit Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Water Temple River Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2245,35 +2756,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spirit Temple Child Climb Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spirit Temple Child Fence Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spirit Temple Iron Knuckle Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spirit Temple Boulders Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spirit Temple Statue Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2419,35 +2930,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Shadow Temple Like Likes Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Shadow Temple Falling Spikes Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Shadow Temple Skull Pot Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Shadow Temple Near Boat Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Shadow Temple Triple Skull Pot Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2558,21 +3069,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bottom of the Well Inner West Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bottom of the Well Inner East Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bottom of the Well East Cage Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2620,21 +3131,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ice Cavern Scythe Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ice Cavern Block Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ice Cavern HP Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -2922,7 +3433,7 @@
 	</Tab>
 	<Tab>
 		<TabName>Majora's Mask</TabName>
-		<Content>Total Checks: 727</Content>
+		<Content>Total Checks: 808</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>
@@ -3049,13 +3560,6 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Post Office Counting Game</CheckName>
-						<CheckType>item</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Post Office Priority Delivery</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -3195,6 +3699,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Silver Rupee Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Post Office Priority Delivery</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -3378,6 +3889,20 @@
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Termina Field Cow Grotto Left Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Termina Field Cow Grotto Right Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
 				</Checks>
 			</Region>
 			<Region>
@@ -3430,6 +3955,27 @@
 						<_isChecked xsi:nil="true" />
 						<CheckName>Romani Ranch Cremia Escort</CheckName>
 						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 1</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 2</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 3</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -3532,34 +4078,6 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Palace Bean Grotto Chest</CheckName>
-						<CheckType>item</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Palace Heart Piece</CheckName>
-						<CheckType>item</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Sonata of Awakening</CheckName>
-						<CheckType>item</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Shrine</CheckName>
-						<CheckType>item</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
 						<CheckName>Near Temple Tall Stump</CheckName>
 						<CheckType>item</CheckType>
 						<IsChecked>false</IsChecked>
@@ -3589,6 +4107,40 @@
 				</Checks>
 			</Region>
 			<Region>
+				<RegionName>Deku Palace</RegionName>
+				<RegionType>overworld</RegionType>
+				<Checks>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Sonata of Awakening</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Deku Palace Bean Grotto Chest</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Deku Palace Heart Piece</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Butler Race</CheckName>
+						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+				</Checks>
+			</Region>
+			<Region>
 				<RegionName>Swamp Spider House</RegionName>
 				<RegionType>overworld</RegionType>
 				<Checks>
@@ -3602,210 +4154,210 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room 1F Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room 1F 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room 1F 3 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lower Dirt Patch 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lower Dirt Patch 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Monument Room Crate 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Monument Room Crate 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Stone Room Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Monument Room 2F 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Monument Room 2F 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Second Floor Pillar Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Second Floor on Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dirt Patch Second Floor Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot Room Beehive 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot Room Beehive 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Large and Small Pots 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Large and Small Pots 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Large and Small Pots 3 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Vines Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot Room Far Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gold Room Beehive Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gold Room Pillar Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gold Room Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gold Room on Ladder Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room in Tree 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room in Tree 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room in Tree 3 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room Beehive Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room Grass 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Tree Room Grass 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -4142,6 +4694,20 @@
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Great Bay Coast Cow Grotto Left Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Great Bay Coast Cow Grotto Right Cow</CheckName>
+						<CheckType>cows</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
 				</Checks>
 			</Region>
 			<Region>
@@ -4165,210 +4731,210 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Slope Left Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Slope Right Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Web Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Skull on Wall Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Web Covered Pot 1F Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Uncovered Pot Main Room Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room Wood Beam Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>On Bookshelf Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Cabinets Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Library Black Space Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Hole Behind Painting Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Library Behind Painting Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Bookshelf Left Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Bookshelf Right Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Basement Black Space Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Vase in Basement Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Skull in Basement Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Basement Hole Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Basement Pot on Crates Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Storage Room Crate Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Storage Room Alcove Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Behind Boat Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Storage Room Rafters Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Storage Room Behind Web Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Chandelier 1 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Chandelier 2 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Chandelier 3 Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Painting Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Black Space Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mask Room Pot Skulltula</CheckName>
-						<CheckType>skull</CheckType>
+						<CheckType>skulls</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -4584,6 +5150,13 @@
 						<_isChecked xsi:nil="true" />
 						<CheckName>Beneath the Well Keese Chest</CheckName>
 						<CheckType>item</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Beneath the Well Cow</CheckName>
+						<CheckType>cows</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -4817,63 +5390,63 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>By Entrance Platform Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Entrance Chest Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Deku Baba Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room Pots Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Wall Beehive Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bridge Room Skulltula Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bridge Beehive Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dark Room Boes Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -4887,35 +5460,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bubble under Bridge Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Final Room Right Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Final Room Right Upper Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Final Room Left Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Final Room Pillar Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -4991,49 +5564,49 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bridge Room Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bridge Room Pillar Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Room with Map Chest Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>In Crate Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ice Room Fake Wall Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Fake Ceiling Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ledge in Map Room Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5047,49 +5620,49 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Ice Switch Puzzle Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Push Double Blocks Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Kill Freezards in Pillar Room Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Snow Fake Wall Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dinolfos 1 Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Dinolfos 2 Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room Fake Wall Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5151,63 +5724,63 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Light Entrance Torches Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Under Platform Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pinwheel Skulltula Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Main Room Barrel Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot in Center Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot in Ledge Room Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bio Baba Hallway Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pot by Dexihands Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Green Room Ceiling Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5228,7 +5801,7 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Seesaw Barrel Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5242,14 +5815,14 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>By Boss Exit Fairy Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Boss Room Bubble Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5297,35 +5870,35 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Entrance Eye Switch Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Basement Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Sun in Mirror Room Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Mirror Room Sun Block Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Lava Room Fire Ring Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5339,7 +5912,7 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Eyegore Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5353,21 +5926,21 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Inverted Death Armos Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Bridge Room Switch Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Pre Boss Crystal Switch Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5422,28 +5995,28 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Inverted Entrance Sun Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Inverted Updraft Flaming Chest Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Inverted Frozen Eye Chest Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Inverted Wizzrobe Stray Fairy</CheckName>
-						<CheckType>fairy</CheckType>
+						<CheckType>fairies</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -5453,7 +6026,7 @@
 	</Tab>
 	<Tab>
 		<TabName>Settings</TabName>
-		<Content>Total Checks: 727</Content>
+		<Content>Total Checks: 808</Content>
 		<Index>0</Index>
 		<Regions>
 			<Region>
@@ -5470,6 +6043,20 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Hide Fairies</CheckName>
+						<CheckType>setting</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Hide Shops</CheckName>
+						<CheckType>setting</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Hide Cows</CheckName>
 						<CheckType>setting</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -5539,6 +6126,69 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>House of Twins Roof Skulltula</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Top Left</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Top Right</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Top Left</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Top Right</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kokiri Shop Right Side - Bottom Right</CheckName>
+						<CheckType>Kokiri Forest</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Link's House Cow</CheckName>
 						<CheckType>Kokiri Forest</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -5734,6 +6384,13 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Hyrule Field Cow Grotto Cow</CheckName>
+						<CheckType>Hyrule Field</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Epona's Song</CheckName>
 						<CheckType>Lon Lon Ranch</CheckType>
 						<IsChecked>false</IsChecked>
@@ -5783,6 +6440,34 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Stables Left Cow</CheckName>
+						<CheckType>Lon Lon Ranch</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Stables Right Cow</CheckName>
+						<CheckType>Lon Lon Ranch</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Ranch Tower Left Cow</CheckName>
+						<CheckType>Lon Lon Ranch</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Ranch Tower Right Cow</CheckName>
+						<CheckType>Lon Lon Ranch</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Dog Lady</CheckName>
 						<CheckType>Market</CheckType>
 						<IsChecked>false</IsChecked>
@@ -5819,6 +6504,174 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Child Shooting Gallery</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Left Side - Bottom Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Bazaar Right Side - Bottom Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Market Potion Shop Right Side - Bottom Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Top Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Top Right</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Market</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Bombchu Shop Right Side - Bottom Right</CheckName>
 						<CheckType>Market</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -6035,6 +6888,118 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Top Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Top Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Bottom Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Left Side - Bottom Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Top Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Top Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Bottom Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Bazaar Right Side - Bottom Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Top Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Top Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Top Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Top Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Kakariko Potion Shop Right Side - Bottom Right</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Tree Skulltula</CheckName>
 						<CheckType>Kakariko Village</CheckType>
 						<IsChecked>false</IsChecked>
@@ -6071,6 +7036,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Karariko Impa's Roof Skulltula</CheckName>
+						<CheckType>Kakariko Village</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Impa's House Cow</CheckName>
 						<CheckType>Kakariko Village</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -6224,6 +7196,13 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Death Mountain Cow Grotto Cow</CheckName>
+						<CheckType>Death Mountain Trail</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Boulder Maze Left Chest</CheckName>
 						<CheckType>Goron City</CheckType>
 						<IsChecked>false</IsChecked>
@@ -6274,6 +7253,62 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Spinning Pot</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Top Left</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Top Right</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Top Left</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Top Right</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Goron City</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Goron City Shop Right Side - Bottom Right</CheckName>
 						<CheckType>Goron City</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -6435,6 +7470,62 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Eyeball Frog</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Top Left</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Top Right</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Bottom Left</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Left Side - Bottom Right</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Top Left</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Top Right</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Bottom Left</CheckName>
+						<CheckType>Zora’s Domain</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Zora's Domain Shop Right Side - Bottom Right</CheckName>
 						<CheckType>Zora’s Domain</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -6624,6 +7715,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Gerudo Valley Pillar Skulltula</CheckName>
+						<CheckType>Gerudo Valley</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Near Gerudo Fortress Cow</CheckName>
 						<CheckType>Gerudo Valley</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -8303,13 +9401,6 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
-						<CheckName>Post Office Priority Delivery</CheckName>
-						<CheckType>West Clock Town</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
 						<CheckName>Rosa Sisters Heart Piece</CheckName>
 						<CheckType>West Clock Town</CheckType>
 						<IsChecked>false</IsChecked>
@@ -8437,6 +9528,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Silver Rupee Chest</CheckName>
+						<CheckType>East Clock Town</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Post Office Priority Delivery</CheckName>
 						<CheckType>East Clock Town</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -8604,6 +9702,20 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Termina Field Cow Grotto Left Cow</CheckName>
+						<CheckType>Termina Field</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Termina Field Cow Grotto Right Cow</CheckName>
+						<CheckType>Termina Field</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Cucco Shack Bunny Mask</CheckName>
 						<CheckType>Milk Road</CheckType>
 						<IsChecked>false</IsChecked>
@@ -8647,6 +9759,27 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Romani Ranch Cremia Escort</CheckName>
+						<CheckType>Milk Road</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 1</CheckName>
+						<CheckType>Milk Road</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 2</CheckName>
+						<CheckType>Milk Road</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Romani Ranch Cow 3</CheckName>
 						<CheckType>Milk Road</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
@@ -8744,34 +9877,6 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Palace Bean Grotto Chest</CheckName>
-						<CheckType>Southern Swamp</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Palace Heart Piece</CheckName>
-						<CheckType>Southern Swamp</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Sonata of Awakening</CheckName>
-						<CheckType>Southern Swamp</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
-						<CheckName>Deku Shrine</CheckName>
-						<CheckType>Southern Swamp</CheckType>
-						<IsChecked>false</IsChecked>
-						<IsVisible>Visible</IsVisible>
-					</Check>
-					<Check>
-						<_isChecked xsi:nil="true" />
 						<CheckName>Near Temple Tall Stump</CheckName>
 						<CheckType>Southern Swamp</CheckType>
 						<IsChecked>false</IsChecked>
@@ -8795,6 +9900,34 @@
 						<_isChecked xsi:nil="true" />
 						<CheckName>Woodfall Temple Great Fairy</CheckName>
 						<CheckType>Southern Swamp</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Sonata of Awakening</CheckName>
+						<CheckType>Deku Palace</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Deku Palace Bean Grotto Chest</CheckName>
+						<CheckType>Deku Palace</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Deku Palace Heart Piece</CheckName>
+						<CheckType>Deku Palace</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Butler Race</CheckName>
+						<CheckType>Deku Palace</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
 					</Check>
@@ -9332,6 +10465,20 @@
 					</Check>
 					<Check>
 						<_isChecked xsi:nil="true" />
+						<CheckName>Great Bay Coast Cow Grotto Left Cow</CheckName>
+						<CheckType>Ocean</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Great Bay Coast Cow Grotto Right Cow</CheckName>
+						<CheckType>Ocean</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
 						<CheckName>Ocean Spider House Chest Heart Piece</CheckName>
 						<CheckType>Ocean Spider House</CheckType>
 						<IsChecked>false</IsChecked>
@@ -9753,6 +10900,13 @@
 					<Check>
 						<_isChecked xsi:nil="true" />
 						<CheckName>Beneath the Well Keese Chest</CheckName>
+						<CheckType>Ikana Canyon</CheckType>
+						<IsChecked>false</IsChecked>
+						<IsVisible>Visible</IsVisible>
+					</Check>
+					<Check>
+						<_isChecked xsi:nil="true" />
+						<CheckName>Beneath the Well Cow</CheckName>
 						<CheckType>Ikana Canyon</CheckType>
 						<IsChecked>false</IsChecked>
 						<IsVisible>Visible</IsVisible>
