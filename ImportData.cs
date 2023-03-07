@@ -3,8 +3,6 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
-using System;
-using System.Windows.Media.Animation;
 
 namespace OoTxMM_Track
 {
@@ -30,7 +28,21 @@ namespace OoTxMM_Track
                             {
                                 continue;
                             }
-                            checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name });                            
+                            if (check.Name != "item" && check.Name != "setting")
+                            {
+                                checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name, IsVisible = "Collapsed" });
+                            }
+                            else
+                            {
+                                if(check.Name == "setting")
+                                {
+                                    checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name, IsChecked = true });
+                                }
+                                else
+                                {
+                                    checksList.Add(new Check { CheckName = check.InnerText, CheckType = check.Name });
+                                }
+                            }                            
                             if (tab.Attributes?["name"]?.InnerText != "Settings")
                             {
                                 DisableChecks.Add(new DisableChecks { CheckName = check.InnerText, CheckTag = region.Attributes?["name"]?.InnerText });

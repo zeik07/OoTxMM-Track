@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Xml;
 using System.Xml.Serialization;
-using ModernWpf;
 using OoTxMM_Track.Model;
 
 namespace OoTxMM_Track
@@ -64,7 +61,7 @@ namespace OoTxMM_Track
             CheckBox checkBox = (CheckBox)sender;
             UIElement? parentElement = checkBox.Parent as UIElement;
             var tabNames = Tabs;
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 parentElement = VisualTreeHelper.GetParent(parentElement) as UIElement;          
             }

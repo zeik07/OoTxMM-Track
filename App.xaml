@@ -12,6 +12,17 @@
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
-        </ResourceDictionary>
+            <Style TargetType="Border">
+                <Setter Property="Background" Value="#FF333333" />
+                <Setter Property="BorderThickness" Value="0" />
+            </Style>
+            <Style TargetType="DockPanel">
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </Style>
+            <Style TargetType="StackPanel">
+                <Setter Property="Background" Value="Black" />
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </Style>
+        </ResourceDictionary>        
     </Application.Resources>
 </Application>
